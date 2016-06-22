@@ -5,3 +5,5 @@ url:
 
 # Build settings
 markdown: kramdown
+
+exclude: ['README']
