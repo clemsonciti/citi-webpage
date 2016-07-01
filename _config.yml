@@ -7,3 +7,4 @@ url:
 markdown: kramdown
 
 exclude: ['README']
+include: ['viz']
