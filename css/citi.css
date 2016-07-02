@@ -41,3 +41,12 @@
   position: absolute;
 }
 
+.hide {
+  display: none;
+}
+
+.well {
+  border-radius: 10px;
+  background: #F8F8F8;
+  padding: 20px 20px 20px 20px;
+}
