@@ -6,9 +6,10 @@
 } 
 
 .full {
-  background-color: #D4E6F1;
+  background-color: #522D80; /*#D4E6F1;*/
   background-size: cover;
   padding: 20px 20px 20px 20px;
+  color: white;
 }
 
 .page_title {
