@@ -39,9 +39,9 @@ research environment.
 - ranked 3rd among the public academic institutions in the US on Top500 list (118 on Top500) with 
 performance of about 720TFlops (16,996 cores from Infiniband part of Palmetto)
 
-[More about Palmetto](http://citi.clemson.edu/palmetto) <br>
+[More about Palmetto](https://www.palmetto.clemson.edu/userguide/) <br>
 [New account on Palmetto](http://citi.clemson.edu/new-account) <br>
-[Reservation request](http://citi.clemson.edu/reservation-request) <br>
+[Reservation request](http://citi.clemson.edu/new-reservation) <br>
 
 #### Support 
 
@@ -72,7 +72,7 @@ For more information about condominium model and purchasing Palmetto nodes,
 including Palmetto nodes on grants please contact Jeronica Williams <jeronic@clemson.edu>
 or Marcin Ziolkowski <zziolko@clemson.edu>.
 
-[Owners guide for Palmetto cluster](http://citi.clemson.edu/palmetto/pages/ownership/owners.html)
+[Owners guide for Palmetto cluster](https://www.palmetto.clemson.edu/userguide/pages/ownership/owners.html)
 
 #### Temporary storage 
 
@@ -111,7 +111,7 @@ or shared server (purchase in 1TB increments).
 Long term storage space includes snapshots of changes and mirror system 
 for disaster recovery.
 
-[More information about long term storage](http://citi.clemson.edu/palmetto/pages/ownership/owners.html#storage)
+[More information about long term storage](https://www.palmetto.clemson.edu/userguide/pages/ownership/owners.html#storage)
 
 <hr>
 
@@ -135,7 +135,7 @@ all students/faculty and staff with Palmetto cluster accounts.
 For more information about investing into Cypress Cluster please 
 contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
 
-[More about Cypress](http://citi.clemson.edu/hadoop/)
+[More about Cypress](https://www.palmetto.clemson.edu/hadoop/)
 
 #### Support 
 
