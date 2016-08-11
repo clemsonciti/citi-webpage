@@ -1,9 +1,26 @@
+.group_title {
+  font-weight: 600;
+  color: #F66733;
+  font-size: 3.6rem; 
+  line-height: 1.25; 
+  letter-spacing: -.1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
 .avatar {      
   background-color: #F5F5F5;      
   border: 1px solid #DDDDDD;      
   border-radius: 50% 50% 50% 50%;      
   padding: 4px; 
 } 
+
+.image {
+  background-color: #F5F5F5;
+  border: 1px solid #DDDDDD;
+  border-radius: 3% 3% 3% 3%;
+  padding: 4px; 
+}
 
 .full {
   background-color: #522D80; /*#D4E6F1;*/

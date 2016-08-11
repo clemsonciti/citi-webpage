@@ -4,6 +4,11 @@ title: Resources
 permalink: /resources/
 ---
 
+<a href="https://www.youtube.com/channel/UCVJUqkuJmNKbO58wwsvdLiw"><img src="/images/youtube-icon.png"></a>
+<a href="https://github.com/clemsonciti"><img src="/images/github-icon.png"></a>
+
+<hr>
+
 # Palmetto & Cypress clusters 
 
 #### Account and reservation requests
@@ -19,6 +24,8 @@ permalink: /resources/
 #### Examples
 
 - [Examples of jobs on Palmeto cluster](https://github.com/clemsonciti/palmetto-examples) - collection of example job scripts for Palemtto 
+
+<hr>
 
 # Introduction to research computing classes
 
