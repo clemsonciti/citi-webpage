@@ -67,3 +67,26 @@
   background: #F8F8F8;
   padding: 20px 20px 20px 20px;
 }
+
+#footer {
+   position: relative;
+   left: 0px;
+   bottom: 0px;
+   height: 150px;
+   margin-top: -150px; /* negative value of footer height */
+   padding: 10px 0px 10px 0px;
+   border-top: 1px solid #e5e5e5;
+   background: #4D4F50;
+   text-align: left;
+   clear: both;
+   color: #ffffff;
+}
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+  padding-bottom: 150px;}  /* must be same height as the footer */
+
+
