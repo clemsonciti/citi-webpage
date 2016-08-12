@@ -8,6 +8,7 @@ permalink: /infrastructure/
   <a class="button" href="#palmetto">Palmetto Cluster</a>
   <a class="button" href="#storage">Long Term Storage</a>
   <a class="button" href="#cypress">Cypress Cluster</a>
+  <a class="button" href="#viz">Visualization Lab</a>
   <a class="button" href="#network">Network</a>
   <a class="button" href="#osg">Open Science Grid</a>
   <a class="button" href="#xsede">XSEDE</a>
@@ -193,6 +194,21 @@ at Clemson University:
 <hr>
 
 <span id="network"></span>
+
+### Visualization Lab
+
+The Visualization Lab (Barre Hall 2004) provides
+cyberinfrastructure for the visualization and virtual reality needs
+of Clemson students, faculty and staff, including:
+
+- Virtual reality head mounted displays (Oculus Rift, Microsoft HoloLens, Samsun Gear VR, etc.,)
+- Visualization workstations equipped with high-end Nvidia Graphics cards
+- Tiled displays and 3-D projector
+- Visualization cluster with 5 nodes and 40 Gbps connection to Palmetto Cluster
+
+For details about available resources, please see [here](http://visualization.sites.clemson.edu/systems.html),
+or contact Wole Oyekoya <ooyekoy@clemson.edu>.
+For events, demos, and office hours, please see the [visualization calendar](http://visualization.sites.clemson.edu/news.html).
 
 ### Network
 
