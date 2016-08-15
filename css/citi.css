@@ -1,3 +1,7 @@
+.social_block {
+  padding: 10px 10px 10px 10px;
+}
+
 .group_title {
   font-weight: 600;
   color: #F66733;
@@ -23,7 +27,7 @@
 }
 
 .full {
-  background-color: #522D80; /*#D4E6F1;*/
+  background-color: #522D80; 
   background-size: cover;
   padding: 20px 20px 20px 20px;
   color: white;
@@ -68,25 +72,29 @@
   padding: 20px 20px 20px 20px;
 }
 
+html, body {height: 100%;}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 #footer {
    position: relative;
    left: 0px;
    bottom: 0px;
-   height: 150px;
-   margin-top: -150px; /* negative value of footer height */
-   padding: 10px 0px 10px 0px;
+   padding: 10px 10px 10px 10px;
    border-top: 1px solid #e5e5e5;
    background: #4D4F50;
    text-align: left;
    clear: both;
    color: #ffffff;
+   margin-top: 50px;
 }
 
-html, body {height: 100%;}
+/*#wrap {min-height: 100%;}*/
+#wrap {flex: 1;}
 
-#wrap {min-height: 100%;}
-
-#main {overflow:auto;
-  padding-bottom: 150px;}  /* must be same height as the footer */
+#main {overflow:auto;}
 
 

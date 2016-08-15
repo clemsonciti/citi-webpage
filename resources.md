@@ -4,9 +4,21 @@ title: Resources
 permalink: /resources/
 ---
 
-<a href="https://www.youtube.com/channel/UCVJUqkuJmNKbO58wwsvdLiw"><img src="/images/youtube-icon.png"></a>
-<a href="https://github.com/clemsonciti"><img src="/images/github-icon.png"></a>
+<div class="row">
 
+ <div class="six columns" style="background: #e64a41; text-align: center;">
+ <a href="https://www.youtube.com/channel/UCVJUqkuJmNKbO58wwsvdLiw">
+    <img src="/images/youtube-icon.png" />
+ </a>
+ </div>
+
+ <div class="six columns" style="background: #3a3a3a; text-align: center;">
+ <a href="https://github.com/clemsonciti">
+  <img src="/images/github-icon.png" />
+ </a>
+ </div>
+
+</div>
 <hr>
 
 # Palmetto & Cypress clusters 
@@ -18,8 +30,8 @@ permalink: /resources/
 
 #### Documentation
 
-- [Palmetto cluster user's guide ](https://www.palmetto.clemson.edu/userguide/) - documentation for Palmetto cluster (user's, programmer's and owner's guides)
-- [Hadoop cluster user's guide](https://www.palmetto.clemson.edu/hadoop/) - documentation for Cypress Hadoop cluster
+- [Palmetto cluster user's guide ](https://www.palmetto.clemson.edu/palmetto/) - documentation for Palmetto cluster (user's, programmer's and owner's guides)
+- [Hadoop cluster user's guide](https://www.palmetto.clemson.edu/cypress/) - documentation for Cypress Hadoop cluster
 
 #### Examples
 
