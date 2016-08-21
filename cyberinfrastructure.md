@@ -32,7 +32,7 @@ research environment.
 - heterogeneous configuration with various types of nodes (different CPU, memory, network, disk space)
 - 386 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 106 nodes with NVIDIA K40 GPUs (2 per node) 
 - 4 nodes with Intel Phi co-processors (2 per node)
-- 6 large memory nodes (5 with 505GB, 1 with 2TB), 250 nodes with 128GB of memory
+- 6 large memory nodes (5 with 505GB, 1 with 2TB), 262 nodes with 128GB of memory
 - 100GB of personal space (backed up daily for 42 days)
 - Myrinet, 10Gbps Ethernet, Infiniband networks
 - global and local scratch spaces for temporary files (no quota per user)
@@ -55,7 +55,7 @@ HPC support is provided by Advanced Computing and Research Methods group
 
 Palmetto cluster operates in a condominium model which allows faculty to invest in the 
 cluster. Investments into Palmetto are based on purchases of compute nodes. By purchasing 
-a compute node faculty get right to use an equivalent hardware across whole Palmetto cluster. 
+a compute node faculty get priority to use an equivalent hardware across whole Palmetto cluster. 
 All not used compute cycles are made available for general Clemson users. Owners may preempt 
 other users making the hardware they purchased immediately available. Purchased nodes are 
 available to faculty for a period of 4 years, after that the priority to use them expires. 
@@ -78,24 +78,35 @@ or Marcin Ziolkowski <zziolko@clemson.edu>.
 
 Palmetto includes several file systems designed for storing temporary files
 1. Local disk on compute nodes 
-2. ZFS scratch space - globally available general purpose file system for temporary files
-3. OrangeFS scratch space - globally available parallel file system for temporary files
-
-##### ZFS scratch file system
-
-- single server sharing 150TB ZFS space to all compute nodes and the login node
-- no quota per user
-- files not accessed for 30 days deleted periodically (on the 1st day of each month during
-the normal operation, more often during increased use)
-- designed for general I/O patterns (small and/or single process I/O)
+2. OrangeFS scratch space - globally available parallel file system for temporary files
+3. ZFS scratch space - globally available general purpose file system for temporary files
+4. XFS scratch space - globally available general purpose file system for temporary files
 
 ##### OrangeFS scratch file system
 
+- available as `/scratch1`
 - distributed file system based on OrangeFS 
 - 233TB space available to all compute nodes and the login node
 - no quota per user
-- files not accessed for 30 days deleted periodically (starting from 5/1/2016)
+- files not accessed for 30 days deleted on first day of each month 
 - designed for parallel I/O 
+
+##### ZFS scratch file system
+
+- available as `/scratch2`
+- single server sharing 150TB ZFS space to all compute nodes and the login node
+- no quota per user
+- files not accessed for 30 days deleted daily 
+- designed for general I/O patterns (small and/or single process I/O)
+
+##### XFS scratch file system
+
+- available as `/scratch3`
+- single server sharing 129TB XFS space to all compute nodes and the login node
+- no quota per user
+- files not accessed for 30 days deleted daily 
+- designed for general I/O patterns (small and/or single process I/O)
+
 
 <span id="storage"></span>
 
@@ -291,7 +302,7 @@ All prices cover 4 year term.
 Type | Unit | Description | Price | Comments
 -----|------|-------------|-------|-----------------
 Storage | 1TB | - ZFS system available only to Palmetto cluster<br> - Snapshots included in user space <br> - Full mirror for system recovery | $150.00 | Owners of existing SAMQFS spaces may expand existing storage for the same price as ZFS storage
-Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $5000-$7000 price bracket as a projected price range for future expansions of Palmetto 
+Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $8000 price as a projected price for future expansions of Palmetto 
 
 
 
