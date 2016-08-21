@@ -130,20 +130,20 @@ for disaster recovery.
 
 ### Cypress Cluster
 
-Clemson cyberinfrastructure include a dedicated Hadoop environment as a part
-of the Palmetto infrastructure. The Cypress cluster uses Hortonworks Data Platform
-to support the data intensive computing and analytics. The Cypress is available to
-all students/faculty and staff with Palmetto cluster accounts.
+Clemson cyberinfrastructure includes a dedicated *Hadoop* environment, called *Cypress*, that is integrated with Palmetto's infrastructure. The *Cypress Cluster* uses the *Hortonworks Data Platform*
+distribution of Hadoop and *Spark* to support data intensive computing and analytics. Cypress is available to
+all students, faculty, and staff with Palmetto Cluster accounts.
 
 #### Overview
 
-- available for free to all Clemson students/faculty and staff
-- global Hadoop Distributed File System
-- 40 256GB-RAM nodes, 16 of which each has 12 1-TB local disks and 24 of which
-each has 24 6-TB local disks.
-- 3.64 PB total available local storage
-- resource manages node for job submission
-- Hortonworks Data Platform
+- available for free to all Clemson students, faculty, and staff
+- 3.64 PB (petabyte) global *Hadoop Distributed File System* (HDFS)
+- 40 *worker* nodes (responsible for computation and data storage)
+  - 256 GB of RAM per node
+  - 16 nodes each have 12 1-TB local disks
+  - 24 nodes each have 24 6-TB local disks
+- one dedicated Cypress Cluster *user node* for job submission and data staging
+- *Hortonworks Data Platform distribution* of Hadoop, Spark, and other *Hadoop ecosystem services*
 
 For more information about investing into Cypress Cluster please
 contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
@@ -152,7 +152,7 @@ contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
 
 #### Support
 
-Cypress cluster and data related support is provided by Data Science group
+The Cypress Cluster and data related support are provided by the Data Science group:
 
 - Jeffrey Denton <denton@clemson.edu>
 - Linh Ngo <linh@clemson.edu>
