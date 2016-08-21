@@ -28,17 +28,17 @@ research environment.
 #### Overview
 
 - available to all Clemson students/faculty/staff for free
-- 2021 compute nodes, 22528 cores
+- 2021 compute nodes, 23072 cores
 - heterogeneous configuration with various types of nodes (different CPU, memory, network, disk space)
-- 374 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 94 nodes with NVIDIA K40 GPUs (2 per node) 
+- 386 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 106 nodes with NVIDIA K40 GPUs (2 per node) 
 - 4 nodes with Intel Phi co-processors (2 per node)
 - 6 large memory nodes (5 with 505GB, 1 with 2TB), 250 nodes with 128GB of memory
 - 100GB of personal space (backed up daily for 42 days)
 - Myrinet, 10Gbps Ethernet, Infiniband networks
 - global and local scratch spaces for temporary files (no quota per user)
-- maximum run time for a single task limited to 72 hours
-- ranked 3rd among the public academic institutions in the US on Top500 list (118 on Top500) with 
-performance of about 720TFlops (16,996 cores from Infiniband part of Palmetto)
+- maximum run time for a single task limited to 72 hours on Infiniband part and 168 hours on Myrinet part
+- ranked 3rd among the public academic institutions in the US on Top500 list (134 on Top500) with 
+performance of about 745 TFlops (17,372 cores from Infiniband part of Palmetto)
 
 [More about Palmetto](https://www.palmetto.clemson.edu/palmetto/) <br>
 [New account on Palmetto](http://citi.sites.clemson.edu/new-account) <br>
@@ -53,13 +53,12 @@ HPC support is provided by Advanced Computing and Research Methods group
 
 #### Condominium model
 
-Palmetto cluster operates in a condominium model which allows faculty to purchase
-rights for priority usage. Investments into Palmetto are based on purchases of 
-equivalence of compute nodes. By purchasing a compute node faculty get right to 
-use an equivalent hardware across whole Palmetto cluster. All not used compute cycles
-are made available for general Clemson users. Owners may preempt other users making 
-the hardware they purchased immediately available. Purchased nodes are available to
-faculty for a period of 4 years, after that the priority to use them expires. 
+Palmetto cluster operates in a condominium model which allows faculty to invest in the 
+cluster. Investments into Palmetto are based on purchases of compute nodes. By purchasing 
+a compute node faculty get right to use an equivalent hardware across whole Palmetto cluster. 
+All not used compute cycles are made available for general Clemson users. Owners may preempt 
+other users making the hardware they purchased immediately available. Purchased nodes are 
+available to faculty for a period of 4 years, after that the priority to use them expires. 
 
 Being an owner allows users to 
 
@@ -292,7 +291,7 @@ All prices cover 4 year term.
 Type | Unit | Description | Price | Comments
 -----|------|-------------|-------|-----------------
 Storage | 1TB | - ZFS system available only to Palmetto cluster<br> - Snapshots included in user space <br> - Full mirror for system recovery | $150.00 | Owners of existing SAMQFS spaces may expand existing storage for the same price as ZFS storage
-Palmetto compute node | 1 unit | - HP Apollo XL1x0r <br> - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $5000-$7000 price bracket as a projected price range for future expansions of Palmetto 
+Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $5000-$7000 price bracket as a projected price range for future expansions of Palmetto 
 
 
 
