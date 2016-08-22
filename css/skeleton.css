@@ -49,7 +49,7 @@
 }
 
 /* For devices larger than 800px */
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .container {
     width: 80%; }
   .column,
@@ -408,13 +408,13 @@ there.
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-  #name {font-size: 1.8rem; }
+@media (min-width: 600px) {
+  #name {font-size: 1.8rem; width: 60%; margin-left: 20%;}
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-  #name {font-size: 2.2rem; 
+@media (min-width: 800px) {
+  #name {font-size: 2.1rem; width: 30.6666666667%; margin-left: 2%;} 
 }
 
 /* Larger than desktop */
