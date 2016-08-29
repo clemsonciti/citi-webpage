@@ -97,4 +97,14 @@ body {
 
 #main {overflow:auto;}
 
+#post_data {
+  font-weight: bold;
+}
 
+#post_title {
+  font-weight: bold;
+}
+
+#post_absract {
+
+}
