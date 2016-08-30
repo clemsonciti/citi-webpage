@@ -19,6 +19,6 @@ For more information, the user documentation for JupyterHub on Palmetto may be f
  
 When necessary, the Palmetto admin team may perform maintenance on JupyterHub for Palmetto on Fridays from 4pm to 5pm. If you find that the service is unavailable during that time period, then please try again after 5pm. Maintenance on JupyterHub will not affect the traditional ways of using Palmetto.
  
-If you have any problems using JupyterHub on Palmetto outside of the maintenance window listed above, then first consult the troubleshooting section of the documentation. If your problem is not resolved, then send a message to ithelp@clemson.edu with the subject "JupyterHub for Palmetto". Also provide a description of the problem you are experiencing in your email message.
+If you have any problems using JupyterHub on Palmetto outside of the maintenance window listed above, then first consult the troubleshooting section of the documentation. If your problem is not resolved, then send a message to <ithelp@clemson.edu> with the subject "JupyterHub for Palmetto". Also provide a description of the problem you are experiencing in your email message.
  
 We welcome your feedback, so please let us know how Jupyter is aiding your research!
