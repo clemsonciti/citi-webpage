@@ -7,9 +7,9 @@ author: Ashwin Srinath
 
 CITI is pleased to announce the availability of a new Palmetto resource called "JupyterHub", which you might find useful for your research.
 
-JupyterHub for Palmetto cluster is a service that enables users to run Jupyter on the Palmetto cluster. Jupyter is a web application that provides an environment for interactive computing, including tools such as a file browser, a text editor, and a terminal. Jupyter also lets users create Jupyter Notebooks. Notebooks are rich, interactive documents that can contain live (runnable) code, equations, visualizations and explanatory text. These tools help researchers perform, document and share their work more effectively, and help teachers/instructors include more hands-on, interactive elements in their materials.
+JupyterHub for Palmetto cluster is a service that enables users to run [Jupyter](https://jupyter.org/) on the Palmetto cluster. Jupyter is a web application that provides an environment for interactive computing, including tools such as a file browser, a text editor, and a terminal. Jupyter also lets users create Jupyter Notebooks. Notebooks are rich, interactive documents that can contain live (runnable) code, equations, visualizations and explanatory text. These tools help researchers perform, document and share their work more effectively, and help teachers/instructors include more hands-on, interactive elements in their materials.
  
-If you would like to interact with an example Jupyter Notebook, you may visit the following link: <http://mybinder.org/repo/clemsonciti/jupyter-welcome/>. NOTE: This example does not run on Palmetto and can be shared with anyone (no Palmetto account required).
+If you would like to interact with an example Jupyter Notebook, you may visit the following link: <http://mybinder.org/repo/clemsonciti/jupyter-welcome/>. **NOTE: This example does not run on Palmetto and can be shared with anyone (no Palmetto account required)**.
  
 If you are ready to give JupyterHub on Palmetto a try, then please visit the following link: <https://www.palmetto.clemson.edu/jupyterhub/>.
 

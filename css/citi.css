@@ -97,6 +97,10 @@ body {
 
 #main {overflow:auto;}
 
+time {
+  font-weight: bold;
+}
+
 #post_data {
   font-weight: bold;
 }

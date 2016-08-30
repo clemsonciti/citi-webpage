@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New scratch file systems available on Palmetto cluster
-abstract: 
+abstract: "New scratch system based on XFS has been put into service on Palmetto cluster and is available under <code>/scratch3</code>." 
 author: Marcin Ziolkowski
 ---
 
@@ -19,17 +19,13 @@ project after CU-CAT approval.
 
 The available scratch systems on Palmetto are:
 
-`/local_scratch` - local temporary space on each compute
-node, capacity varies per phase of Palmetto
-
-`/scratch1` - OrangeFS based parallel scratch system, 233TB
-capacity
-
-`/scratch2` - ZFS based scratch system, 160TB capacity
-
-`/scratch3` - XFS based scratch system, 129TB capacity
-
-`/fast_scratch` - XFS SSD based scratch system, 8.5TB capacity
+Location | Capacity | Description 
+---------|----------|-------------- 
+`/local_scratch` | varies by phase | local temporary space on each compute node
+`/scratch1`      | 233 TB | OrangeFS based parallel scratch system
+`/scratch2`      | 160 TB | global ZFS based scratch system
+`/scratch3`      | 129 TB | global XFS based scratch system
+`/fast_scratch`  | 8.5 TB | global XFS SSD based scratch system
 
 To choose the most appropriate scratch file system for your
 application, we recommend running benchmark to test the
