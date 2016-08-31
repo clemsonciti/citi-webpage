@@ -47,4 +47,5 @@ permalink: /resources/
 - [Jupyterhub for Palmetto cluster](https://clemsonciti.github.io/jupyter-docs/) - web based access to Palmetto using Jupyter notebooks
 - [Introduction to Hadoop](https://clemsonciti.github.io/mpi-python-workshop/) - Introduction to Hadoop ecosystem and MapReduce jobs using Cypress cluster
 - [Distributed computing on Open Science Grid](http://clemsonciti.github.io/osg-workshop/) - quick introduction to Open Science Grid from Palmetto cluster
+- [Introduction to Data Science using R](http://clemsonciti.github.io/data-science-r-01) - introduction to R language for data analytics using Jupyter  notebooks on Palmetto, installation of additional R modules, data manipulation, visualization, best practices for using R
 
