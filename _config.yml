@@ -2,6 +2,7 @@
 title: CITI Group | Clemson University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: 
+future: true
 
 # Build settings
 markdown: kramdown
