@@ -49,4 +49,5 @@ permalink: /resources/
 - [Distributed computing on Open Science Grid](http://clemsonciti.github.io/osg-workshop/) - quick introduction to Open Science Grid from Palmetto cluster
 - [Introduction to Data Science using R](http://clemsonciti.github.io/data-science-r-01) - introduction to R language for data analytics using Jupyter  notebooks on Palmetto, installation of additional R modules, data manipulation, visualization, best practices for using R
 - [Introduction to Version Control with Git](https://clemsonciti.github.io/git-workshop/) - introduction to git for version control and [Gihub.com](https://github.com) for collaboration
+- [Introduction to Python](https://clemsonciti.github.io/python-workshop/) - introduction to programming in Python
 
