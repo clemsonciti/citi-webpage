@@ -5,7 +5,7 @@ abstract: "Four-day bootcamp will provide
 participants with practical programming knowledge
 and familiarity with the University's
 diverse research computing facilities.
-Boot camp is open to all students,faculty and staff.
+Boot camp is open to all students,faculty and staff."
 author: Ashwin Srinath
 ---
 
@@ -14,6 +14,15 @@ we are offering another series of workshops
 that will provide participants with
 practical programming knowledge and
 familiarity with the University's diverse research computing facilities.
+
+The boot camp is free for all Clemson students, faculty and staff.
+**Registration** is a simple, two-step process:
+
+1. Sign up for the "Research Computing and Data Insight" on [Canvas](https://clemson.instructure.com/courses/6307).
+2. Then, select which of the boot camp sessions you will attend [here](https://clemson.instructure.com/courses/6307/quizzes/3791)
+
+Please contact Nuyun (Nellie) Zhang <nuyun@clemson.edu>
+with questions or for further information.
 
 The following topics will be covered;
 note the overlap in sessions:
@@ -38,8 +47,3 @@ note the overlap in sessions:
 ### Day 4 (Oct 7)
 
 * Visualizing Research Data (9:00 AM- 12:00 PM, 310 Watts Family Innovation Center)
-
-The boot camp is free for all Clemson students, faculty and staff. Registration is open for the Sep 5-7 sessions. For description and location for each session, and to register, please visit <http://citi.sites.clemson.edu/training/>
-
-Please contact Nuyun (Nellie) Zhang <nuyun@clemson.edu>
-with questions or for further information.
