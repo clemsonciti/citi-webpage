@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+
 .social_block {
   padding: 10px 10px 10px 10px;
 }
@@ -62,6 +64,8 @@
   position: absolute;
 }
 
+
+
 .hide {
   display: none;
 }
@@ -85,10 +89,11 @@ body {
    bottom: 0px;
    padding: 10px 10px 10px 10px;
    border-top: 1px solid #e5e5e5;
-   background: #4D4F50;
+   background: #F8F8F8;
+   /*background: #4D4F50;*/
    text-align: left;
    clear: both;
-   color: #ffffff;
+   color: #000000;
    margin-top: 50px;
 }
 
@@ -116,3 +121,78 @@ time {
 .upcoming {
   color: #F66733; 
 }
+
+
+
+.event-page-top {
+  background: #ea6a20;
+  padding: 10px 0px;
+  color: #fff;
+  width: 100%;
+}
+
+.event-page-title {
+  background: #3A4958;
+  padding: 10px 20px;
+  color: #fff;
+  width: 100%;
+}
+
+
+.date {
+  color: #522D80; 
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: right; 
+}
+
+.date-day-num {
+  color: #f19966;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: right;
+  font-size: 38pt;
+  margin-bottom: -10px;
+}
+
+.day-info {
+  margin: 10px 15px 10px 15px;
+  font-size: 12pt;
+  padding: 5px 5px 5px 5px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.day-title {
+  color: #F66733;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#loader {
+  position: relative;
+  left: 50%;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 16px solid #F66733;
+  border-radius: 50%;
+  border-top: 16px solid #522D80;
+  border-bottom: 16px solid #522D80;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

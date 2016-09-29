@@ -6,8 +6,9 @@ title: Training
 <p>CITI partners with researchers across campus and across the country to offer a diverse catalog of advanced computing training opportunities for Clemson University students, researchers, faculty, and staff, as well as opportunities for our external partners at other universities and organizations.</p>
 
 <h3>Upcoming Class Schedule</h3>
+<div id="loader"></div>
 <div id="upcoming-classes"></div>
-<div id="upcoming-classes-none" class="hide well "><hx>There are no classes currently scheduled.</h3></div>
+<div id="upcoming-classes-none" class="hide well "><h3>There are no classes currently scheduled.</h3></div>
 
 <p>Problems with, or questions about, course registration?</br>
 Please contact <b>Nuyun (Nellie) Zhang or e-mail: nuyun[at]clemson.edu</b></br></p>

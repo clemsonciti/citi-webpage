@@ -47,9 +47,11 @@ function load_upcoming_calendar()
     success: function(data, textStatus, xhr) {
       if(data.length > 0) {
         var html = make_calendar_html(data);
+        $('#loader').hide();
         $('#upcoming-classes').html(html);
       }
       else {
+        $('#loader').hide();              
         $('#upcoming-classes-none').show();
       }
     },
