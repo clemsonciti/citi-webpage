@@ -18,13 +18,13 @@ to solve different research problems.
 of researchers using the Python programming language,
 and tools related to the Python ecosystem.
 
-<button class="js-create-chat-button" id="create-python-chat-btn">Show Forum</button>
+<button class="js-create-chat-button" id="create-python-chat-btn">View Forum</button>
 
 * [Computational chemistry][computational-chemistry-channel]: community
 of researchers working on problems in computational chemistry,
 and similar fields such as materials science and molecular dynamics.
 
-<button class="js-create-chat-button" id="create-chemistry-chat-btn">Show Forum</button>
+<button class="js-create-chat-button" id="create-chemistry-chat-btn">View Forum</button>
 
 [python-channel]: {{site.baseurl}}/channels/python
 [computational-chemistry-channel]: {{site.baseurl}}/channels/computational-chemistry
