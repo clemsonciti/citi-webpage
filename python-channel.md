@@ -26,12 +26,15 @@ Some of these meetups may include small tutorials.
 
 ### Available Resources
 
-* Introductory Python workshop materials: an introduction
+* **Introductory Python workshop materials**: an introduction
 to Python for research computing ([link][python-workshop])
-* JupyterHub: an interactive web-based environment for programming
+* **JupyterHub**: an interactive web-based environment for programming
 in Python, R, and MATLAB; powered by the Palmetto cluster ([link][jupyterhub])
+* **Python on Palmetto**: article on installing and maintaining
+Python and Python packages on the cluster ([link][python-on-palmetto])
 
 
 [python-gitter]: https://gitter.im/clemsonciti/python-for-research
 [python-workshop]: http://clemsonciti.github.io/linux-workshop/
 [jupyterhub]: http://clemsonciti.github.io/linux-workshop/
+[python-on-palmetto]: https://github.com/clemsonciti/python-installation-on-palmetto
