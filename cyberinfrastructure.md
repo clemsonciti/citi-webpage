@@ -37,8 +37,8 @@ research environment.
 - Myrinet, 10Gbps Ethernet, Infiniband networks
 - global and local scratch spaces for temporary files (no quota per user)
 - maximum run time for a single task limited to 72 hours on Infiniband part and 168 hours on Myrinet part
-- ranked 3rd among the public academic institutions in the US on Top500 list (134 on Top500) with
-performance of about 745 TFlops (17,372 cores from Infiniband part of Palmetto)
+- ranked 4th among the public academic institutions in the US on Top500 list (155 on Top500) with
+performance of 814.4 TFlops (17,372 cores from Infiniband part of Palmetto)
 
 [More about Palmetto](https://www.palmetto.clemson.edu/palmetto/) <br>
 [New account on Palmetto](http://citi.sites.clemson.edu/new-account) <br>
@@ -78,39 +78,17 @@ or Marcin Ziolkowski <zziolko@clemson.edu>.
 
 Palmetto includes several file systems designed for storing temporary files
 1. Local disk on compute nodes
-2. OrangeFS scratch space - globally available parallel file system for temporary files
-3. ZFS scratch space - globally available general purpose file system for temporary files
-4. XFS scratch space - globally available general purpose file system for temporary files
+2. Following global scratch systems  
 
-##### OrangeFS scratch file system
-
-- available as `/scratch1`
-- distributed file system based on OrangeFS
-- 233TB space available to all compute nodes and the login node
-- no quota per user
-- files not accessed for 30 days deleted on first day of each month
-- designed for parallel I/O
-
-##### ZFS scratch file system
-
-- available as `/scratch2`
-- single server sharing 150TB ZFS space to all compute nodes and the login node
-- no quota per user
-- files not accessed for 30 days deleted daily
-- designed for general I/O patterns (small and/or single process I/O)
-
-##### XFS scratch file system
-
-- available as `/scratch3`
-- single server sharing 129TB XFS space to all compute nodes and the login node
-- no quota per user
-- files not accessed for 30 days deleted daily
-- designed for general I/O patterns (small and/or single process I/O)
+File system      | Directory     | Capacity  | Features
+-----------------|---------------|-----------|----------------
+OrangeFS         | `/scratch1`   | 233 TB    | - distributed file system based on OrangeFS <br> - available to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted on first day of each month <br> - designed for parallel I/O
+ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O) 
+XFS              | `/scratch3`   | 129 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
 
 
 <span id="storage"></span>
 
-<hr>
 
 ### Long term storage
 
