@@ -1,0 +1,10 @@
+---
+layout: none
+permalink: feedback/.htaccess
+---
+  AuthType Shibboleth
+  ShibRequireSession On
+  ShibUseHeaders On
+  require shibboleth
+
+
