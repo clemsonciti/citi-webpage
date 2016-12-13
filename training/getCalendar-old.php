@@ -8,13 +8,6 @@ function startswith($needle, $haystack)
 function get_nice_date($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   $dt = date_create($tmp[2]);
-   return date_format($dt, "M d, Y");
-}
-
-function get_nice_repeat_date($timestamp)
-{
-   $tmp = explode(":", $timestamp);
    $dt = date_create($tmp[1]);
    return date_format($dt, "M d, Y");
 }
@@ -22,15 +15,13 @@ function get_nice_repeat_date($timestamp)
 function get_date($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   //echo $tmp[2];
-   //echo $timestamp;
-   return date_create($tmp[2]);
+   return date_create($tmp[1]);
 }
 
 function get_time($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   $dt = date_create($tmp[2]);
+   $dt = date_create($tmp[1]);
    return date_format($dt, "g:i A");
 }
 
@@ -58,13 +49,13 @@ foreach($ics as $line) {
           }
           unset($event['rrule']);
           if(isset($event['repeat']['UNTIL'])) {
-            $event['repeat']['end_date'] = get_nice_repeat_date(":" . $event['repeat']['UNTIL']);
+            $event['repeat']['end_date'] = get_nice_date(":" . $event['repeat']['UNTIL']);
           }
         }
         $today = time();
-        //if(time() <= intval($event['date']->format('U'))) {
+        if(time() <= intval($event['date']->format('U'))) {
           $events[] = $event;
-        //}
+        }
         unset($event['date']);
         $event = null;
       }
@@ -105,6 +96,6 @@ foreach($ics as $line) {
 
 
 Header('Content-Type: application/json');
-echo json_encode($events,JSON_PRETTY_PRINT);
+echo json_encode($events);
 
 ?>

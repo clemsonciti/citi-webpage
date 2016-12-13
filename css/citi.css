@@ -196,3 +196,14 @@ time {
   100% { transform: rotate(360deg); }
 }
 
+th{
+    background-color: #f9f9f9;
+    padding-left: 10pt;
+}
+td{
+  padding-left: 10pt;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
