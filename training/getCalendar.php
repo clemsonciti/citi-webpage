@@ -62,9 +62,9 @@ foreach($ics as $line) {
           }
         }
         $today = time();
-        //if(time() <= intval($event['date']->format('U'))) {
+        if(time() <= intval($event['date']->format('U'))) {
           $events[] = $event;
-        //}
+        }
         unset($event['date']);
         $event = null;
       }
@@ -105,6 +105,6 @@ foreach($ics as $line) {
 
 
 Header('Content-Type: application/json');
-echo json_encode($events,JSON_PRETTY_PRINT);
+echo json_encode($events);
 
 ?>
