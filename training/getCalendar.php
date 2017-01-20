@@ -105,6 +105,6 @@ foreach($ics as $line) {
 
 
 Header('Content-Type: application/json');
-echo json_encode($events,JSON_PRETTY_PRINT);
+echo json_encode($events);
 
 ?>
