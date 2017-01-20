@@ -12,9 +12,18 @@ function get_nice_date($timestamp)
    return date_format($dt, "M d, Y");
 }
 
+function get_nice_repeat_date($timestamp)
+{
+   $tmp = explode(":", $timestamp);
+   $dt = date_create($tmp[1]);
+   return date_format($dt, "M d, Y");
+}
+
 function get_date($timestamp)
 {
    $tmp = explode(":", $timestamp);
+   //echo $tmp[2];
+   //echo $timestamp;
    return date_create($tmp[1]);
 }
 
@@ -49,7 +58,7 @@ foreach($ics as $line) {
           }
           unset($event['rrule']);
           if(isset($event['repeat']['UNTIL'])) {
-            $event['repeat']['end_date'] = get_nice_date(":" . $event['repeat']['UNTIL']);
+            $event['repeat']['end_date'] = get_nice_repeat_date(":" . $event['repeat']['UNTIL']);
           }
         }
         $today = time();
