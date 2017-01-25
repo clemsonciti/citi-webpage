@@ -1,7 +1,7 @@
 ---
 layout: page 
-title: Feedback
-permalink: /feedback/
+title: Testimonials
+permalink: /testimonials/
 ---
 
 
@@ -11,8 +11,13 @@ if ($action=="")    /* display the contact form */
     {
     ?>
 
-<p>CITI Group will appreciate any comments and feedback regarding activities of the 
-group. Please fill in the form below to send us your comments.</p> 
+<p>Sustainability and growth of the research computing resources like Palmetto
+cluster depends on its importance to the community and positive feedback on how 
+they impact and enhance research.</p>
+
+<p>We would highly appreciate short information on how important Palmetto cluster and other
+parts of research cyberinfrastructure have impacted your research and/or education
+at Clemson University.</p>
 
 
     <form  action="" method="POST" enctype="multipart/form-data">
@@ -24,7 +29,7 @@ group. Please fill in the form below to send us your comments.</p>
     <b>Clemson ID</b><br>
     <input name="username" type="text" value="<?php $parts = explode("@", $_SERVER["PHP_AUTH_USER"]); echo $parts[0]; ?>" disabled size="45"/><br>
 
-    <b>Comments</b><br>
+    <b>Testimonial</b><br>
     <textarea name="feedback" rows="15" cols="45" style="height: 200px;"></textarea><br>
 
     <input class="button-primary" type="submit" value="Send comments"/>
