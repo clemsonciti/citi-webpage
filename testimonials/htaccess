@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: feedback/.htaccess
+permalink: testimonials/.htaccess
 ---
   AuthType Shibboleth
   ShibRequireSession On
