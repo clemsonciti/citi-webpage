@@ -12,12 +12,15 @@ if ($action=="")    /* display the contact form */
     ?>
 
 <p>Sustainability and growth of the research computing resources like Palmetto
-cluster depends on its importance to the community and positive feedback on how 
+cluster depend on their importance to the community and positive feedback on how 
 they impact and enhance research.</p>
 
-<p>We would highly appreciate short information on how important Palmetto cluster and other
+<p>We would highly appreciate short information on how Palmetto cluster and other
 parts of research cyberinfrastructure have impacted your research and/or education
 at Clemson University.</p>
+
+<p>Your input will help us sustain and expand the research cyberinfrastructure at Clemson
+University! Thank you!</p>
 
 
     <form  action="" method="POST" enctype="multipart/form-data">
