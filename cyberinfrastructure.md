@@ -13,7 +13,6 @@ permalink: /infrastructure/
   <a class="button" href="#osg">Open Science Grid</a>
   <a class="button" href="#xsede">XSEDE</a>
   <a class="button" href="#citi">Research support</a>
-  <a class="button" href="#programmers">Programming support</a>
   <a class="button" href="#prices">Prices</a>
 </div>
 
@@ -44,12 +43,7 @@ performance of 814.4 TFlops (17,372 cores from Infiniband part of Palmetto)
 [New account on Palmetto](http://citi.sites.clemson.edu/new-account) <br>
 [Reservation request](http://citi.sites.clemson.edu/new-reservation) <br>
 
-#### Support
 
-HPC support is provided by Advanced Computing and Research Methods group
-
-- Ashwin Srinath <atrikut@g.clemson.edu>
-- Marcin Ziolkowski <zziolko@clemson.edu>
 
 #### Condominium model
 
@@ -130,10 +124,14 @@ contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
 
 #### Support
 
-The Cypress Cluster and data related support are provided by the Data Science group:
+The Palmetto and Cypress Clusters research support is provided by Advanced Computing
+and Data Science group:
 
 - Jeffrey Denton <denton@clemson.edu>
 - Linh Ngo <linh@clemson.edu>
+- Ashwin Srinath <atrikut@g.clemson.edu>
+- Nuyun Zhang <nuyun@clemson.edu>
+- Marcin Ziolkowski <zziolko@clemson.edu>
 
 <hr>
 
@@ -227,29 +225,25 @@ and external dedicated computing resources and assists in porting and optimizing
 
 CITI group includes subgroups
 
-Advanced Computing and Research Methods Group
+Advanced Computing and Data Science  
 
+- Jeffrey Denton <denton@clemson.edu>
+- Linh Ngo <linh@clemson.edu>
 - Ashwin Srinath <atrikut@g.clemson.edu>
+- Nuyun (Nellie) Zhang <nuyun@clemson.edu>
 - Marcin Ziolkowski <zziolko@clemson.edu>
 
 Advanced Visualization
 
 - Wole Oyekoya <ooyekoy@clemson.edu>
-
-Data Science Group
-
-- Jeffrey Denton <denton@clemson.edu>
-- Linh Ngo <linh@clemson.edu>
-
-Education and Workforce Development
-
-- Nuyun (Nellie) Zhang <nuyun@clemson.edu>
+- Jonathan Clayton <jclayto@clemson.edu>
 
 Geographic Information System Group
 
-- Palak Matta <pmatta@clemson.edu>
 - Patrick Claflin <pat@clemson.edu>
 - Patricia Carbajales-Dale <pcarbaj@clemson.edu>
+- Palak Matta <pmatta@clemson.edu>
+- Blake Lytle <balytle@clemson.edu>
 
 Program Manager
 
@@ -257,19 +251,6 @@ Program Manager
 
 [More about CITI group](http://citi.clemson.edu) <br>
 [CITI Training and workshops](http://citi.clemson.edu/training) <br>
-
-<hr>
-
-<span id="programmers"></span>
-
-### Programming support
-
-Clemson faculty may use dedicated programmers time for research
-projects that need development of software. Programmers time is provided
-for fee.
-
-For more information about buying programmers time please contact
-Jeronica Williams <jeronic@clemson.edu>.
 
 <hr>
 

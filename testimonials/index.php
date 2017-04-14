@@ -35,7 +35,7 @@ University! Thank you!</p>
     <b>Testimonial</b><br>
     <textarea name="feedback" rows="15" cols="45" style="height: 200px;"></textarea><br>
 
-    <input class="button-primary" type="submit" value="Send comments"/>
+    <input class="button-primary" type="submit" value="Send testimonial"/>
     </form>
     <?php
     } 
