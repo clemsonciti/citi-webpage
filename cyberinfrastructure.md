@@ -118,7 +118,7 @@ all students, faculty, and staff with Palmetto Cluster accounts.
 - *Hortonworks Data Platform distribution* of Hadoop, Spark, and other *Hadoop ecosystem services*
 
 For more information about investing into Cypress Cluster please
-contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
+contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <lngo@clemson.edu>.
 
 [More about Cypress](https://www.palmetto.clemson.edu/cypress/)
 
@@ -130,7 +130,7 @@ The Palmetto and Cypress Clusters research support is provided by Advanced Compu
 and Data Science group:
 
 - Jeffrey Denton <denton@clemson.edu>
-- Linh Ngo <linh@clemson.edu>
+- Linh Ngo <lngo@clemson.edu>
 - Ashwin Srinath <atrikut@g.clemson.edu>
 - Nuyun Zhang <nuyun@clemson.edu>
 - Marcin Ziolkowski <zziolko@clemson.edu>
@@ -205,14 +205,39 @@ For events, demos, and office hours, please see the [visualization calendar](htt
 
 <span id="network"></span>
 
-### Network
+## Network
 
 Clemson network infrastructure is connected with high speed network provided by
 Internet 2. The high speed (100Gbps) network provides external connectivity to
 Palmetto cluster and main campus (selected buildings).
 
+#### Data transfer node (DTN)
+
+Palmetto infrastructure includes two servers dedicated to fast transfer of data.
+
+- `xfer01-ext.palmetto.clemson.edu` is node dedicated to large file transfers using
+traditional tools like scp, FileZilla. This server also hosts Globus Endpoint for 
+Palmetto cluster. Palmetto `/home` and all scratch file systems are available on this 
+server.  
+
+- `hpcdtn01-ext.clemson.edu` is a server dedicated to large file transfer using Internet2.
+This DTN is part of Pacific Research Platform and includes large SSD based file system
+to facilitate best disk-to-disk transfer speed.  
+
+#### Pacific Research Platform (PRP)
+
+Pacific Research Platform is a collaboration of universities to establish 
+fast network connections between servers dedicated to data transfer. Clemson 
+University is PRP partner and `hpcdtn01-ext.clemson.edu` is part of the 
+PRP network. The list of all participating institutions and their DTNs is
+available on PRP Dashboard which allows also for assessment of the connection
+speed between different sites. 
+
+[PRP Dashboard](http://prp-maddash.calit2.optiputer.net/maddash-webui/)<br>
+[Pacific Research Platform](http://prp.ucsd.edu/)<br>
 [Internet 2](http://www.internet2.edu) <br>
 [Advanced Layer 2 Service](http://www.internet2.edu/products-services/advanced-networking/layer-2-services/) <br>
+[ESnet Fasterdata Knowledge Base](https://fasterdata.es.net/)
 
 <hr>
 
@@ -231,7 +256,7 @@ CITI group includes subgroups
 Advanced Computing and Data Science  
 
 - Jeffrey Denton <denton@clemson.edu>
-- Linh Ngo <linh@clemson.edu>
+- Linh Ngo <lngo@clemson.edu>
 - Ashwin Srinath <atrikut@g.clemson.edu>
 - Nuyun (Nellie) Zhang <nuyun@clemson.edu>
 - Marcin Ziolkowski <zziolko@clemson.edu>
