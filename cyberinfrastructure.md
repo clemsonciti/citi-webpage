@@ -18,13 +18,13 @@ permalink: /infrastructure/
 
 <span id="palmetto"></span>
 
-### Palmetto Cluster
+## Palmetto Cluster
 
 Palmetto Cluster is a local high performance computing environment
 available to all Clemson students/faculty and staff as a dedicated
 research environment.
 
-#### Overview
+### Overview
 
 - available to all Clemson students/faculty/staff for free
 - 2021 compute nodes, 23072 cores
@@ -45,7 +45,7 @@ performance of 814.4 TFlops (17,372 cores from Infiniband part of Palmetto)
 
 
 
-#### Condominium model
+### Condominium model
 
 Palmetto cluster operates in a condominium model which allows faculty to invest in the
 cluster. Investments into Palmetto are based on purchases of compute nodes. By purchasing
@@ -68,7 +68,7 @@ or Marcin Ziolkowski <zziolko@clemson.edu>.
 
 [Owners guide for Palmetto cluster](https://www.palmetto.clemson.edu/palmetto/pages/ownership/owners.html)
 
-#### Temporary storage
+### Temporary storage
 
 Palmetto includes several file systems designed for storing temporary files
 1. Local disk on compute nodes
@@ -84,7 +84,7 @@ XFS              | `/scratch3`   | 129 TB    | - single server sharing space to 
 <span id="storage"></span>
 
 
-### Long term storage
+## Long term storage
 
 Long term storage solutions are available to users seeking a dedicated
 high performance storage. This service is provided for fee to Clemson users.
@@ -100,13 +100,13 @@ for disaster recovery.
 
 <span id="cypress"></span>
 
-### Cypress Cluster
+## Cypress Cluster
 
 Clemson cyberinfrastructure includes a dedicated *Hadoop* environment, called *Cypress*, that is integrated with Palmetto's infrastructure. The *Cypress Cluster* uses the *Hortonworks Data Platform*
 distribution of Hadoop and *Spark* to support data intensive computing and analytics. Cypress is available to
 all students, faculty, and staff with Palmetto Cluster accounts.
 
-#### Overview
+### Overview
 
 - available for free to all Clemson students, faculty, and staff
 - 3.64 PB (petabyte) global *Hadoop Distributed File System* (HDFS)
@@ -122,7 +122,9 @@ contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <linh@clemson.edu>.
 
 [More about Cypress](https://www.palmetto.clemson.edu/cypress/)
 
-#### Support
+<hr>
+
+## Support
 
 The Palmetto and Cypress Clusters research support is provided by Advanced Computing
 and Data Science group:
@@ -171,8 +173,9 @@ and other systems.
 For more information about XSEDE resources contact one of the XSEDE Campus Champions
 at Clemson University:
 
-- Wole Oyekoya <ooyekoy@clemson.edu>
 - Xizhou Feng <xizhouf@clemson.edu>
+- Linh Ngo <lngo@clemson.edu>
+- Ashwin Srinath <atrikut@clemson.edu>
 - Marcin Ziolkowski <zziolko@clemson.edu>
 
 [XSEDE](https://www.xsede.org/) <br>
