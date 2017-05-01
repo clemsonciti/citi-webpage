@@ -6,6 +6,7 @@ permalink: /infrastructure/
 
 <div class="row" style="margin-top: 10pt;">
   <a class="button" href="#palmetto">Palmetto Cluster</a>
+  <a class="button" href="#security">PHI data processing</a>
   <a class="button" href="#storage">Long Term Storage</a>
   <a class="button" href="#cypress">Cypress Cluster</a>
   <a class="button" href="#viz">Visualization Lab</a>
@@ -81,8 +82,52 @@ ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to 
 XFS              | `/scratch3`   | 129 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
 
 
-<span id="storage"></span>
 
+<span id="security"></span>
+
+## Secure data server
+
+CCIT hosts server dedicated to preparing sensitive data for further use on 
+either Palmetto or Cypress clusters. This system is meant to be used for 
+de-identification of any Protected Health Information (HIPAA) for further 
+analysis. The following identifiers combined with medical information qualify 
+any data as sensitive 
+
+- Names
+- Telephone numbers
+- Fax numbers
+- Email addresses
+- Social Security numbers
+- Medical record numbers
+- Health plan numbers
+- License plate numbers
+- URLs
+- Full-face photographic images
+- Any other unique identifying marker that allows identification of an individual 
+
+The system dedicated to the initial processing of the sensitive information
+is equipped with tools enhancing its security and the processes (access, monitoring,
+audit, administration) involving this system are detached from the general once 
+for Palmetto or Cypress. 
+
+Security measures for the PHI research system
+- Secure location with 24/7 monitoring of access
+- Access to restricted list of users 
+- Secure shell only access 
+- Two-factor authentication
+- Monitoring of all commands on the system
+- Access to restricted list of IP addresses controlled both at network and firewall levels
+- Encrypted file system
+- Periodic security audit
+
+For access to the secured research system please contact 
+<a href="#acds_support">Advanced Computing and Data Science group</a>.
+
+
+[HIPAA](https://www.hhs.gov/hipaa/index.html)
+
+
+<span id="storage"></span>
 
 ## Long term storage
 
@@ -123,6 +168,8 @@ contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <lngo@clemson.edu>.
 [More about Cypress](https://www.palmetto.clemson.edu/cypress/)
 
 <hr>
+
+<span id="acds_support"></span>
 
 ## Support
 
