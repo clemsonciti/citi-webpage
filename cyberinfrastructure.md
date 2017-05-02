@@ -113,11 +113,11 @@ for Palmetto or Cypress.
 
 Security measures for the PHI research system
 - Secure location with 24/7 monitoring of access
-- Access to restricted list of users 
+- Access to the system is limitted to restricted list of users 
+- Access to restricted list of IP addresses controlled both at network and firewall levels
 - Secure shell only access 
 - Two-factor authentication
 - Monitoring of all commands on the system
-- Access to restricted list of IP addresses controlled both at network and firewall levels
 - Encrypted file system
 - Periodic security audit
 
