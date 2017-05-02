@@ -82,7 +82,7 @@ OrangeFS         | `/scratch1`   | 233 TB    | - distributed file system based o
 ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O) 
 XFS              | `/scratch3`   | 129 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
 
-
+<hr>
 
 <span id="security"></span>
 
@@ -127,6 +127,7 @@ For access to the secured research system please contact
 
 [HIPAA](https://www.hhs.gov/hipaa/index.html)
 
+<hr>
 
 <span id="storage"></span>
 
