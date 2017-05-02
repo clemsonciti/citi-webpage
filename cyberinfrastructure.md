@@ -9,6 +9,7 @@ permalink: /infrastructure/
   <a class="button" href="#security">PHI data processing</a>
   <a class="button" href="#storage">Long Term Storage</a>
   <a class="button" href="#cypress">Cypress Cluster</a>
+  <a class="button" href="#galaxygis">GalaxyGIS</a>
   <a class="button" href="#viz">Visualization Lab</a>
   <a class="button" href="#network">Network</a>
   <a class="button" href="#osg">Open Science Grid</a>
@@ -183,6 +184,35 @@ and Data Science group:
 - Marcin Ziolkowski <zziolko@clemson.edu>
 
 <hr>
+
+<span id="galaxygis"></span>
+
+## GalaxyGIS Cluster
+
+Clemson Center for Geospatial Technologies (CCGT) cyberinfrastructure includes a 
+High Throughput Computing pool, called GalaxyGIS, to address the needs of desktop 
+GIS users who needs additional computational power for their GIS analysis. The GIS Cluster 
+consists of over 30 Windows computers with installed GIS programs and a scheduler 
+to distribute GIS jobs for parallel processing through available nodes. GalaxyGIS 
+is available to all students, faculty, and staff with Palmetto Cluster accounts.
+
+### Overview
+
+- available for free to all Clemson students, faculty, and staff
+- 740 computer nodes (responsible for processing and computation)
+- 1 TB of personal space (not backed up)
+
+### Support
+
+GalaxyGIS Cluster support is provided by the GIS group
+
+- Patrick Claflin <pat@clemson.edu>
+- Palak Matta <pmatta@clemson.edu>
+- Blake Lytle <balytle@g.clemson.edu>
+- Patricia Carbajales-Dale <pcarbaj@clemson.edu>
+
+<hr>
+
 
 <span id="osg"></span>
 
