@@ -79,7 +79,7 @@ Palmetto includes several file systems designed for storing temporary files
 File system      | Directory     | Capacity  | Features
 -----------------|---------------|-----------|----------------
 OrangeFS         | `/scratch1`   | 233 TB    | - distributed file system based on OrangeFS <br> - available to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted on first day of each month <br> - designed for parallel I/O
-ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O) 
+ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
 XFS              | `/scratch3`   | 129 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
 
 <hr>
@@ -88,11 +88,11 @@ XFS              | `/scratch3`   | 129 TB    | - single server sharing space to 
 
 ## Secure data server
 
-CCIT hosts server dedicated to preparing sensitive data for further use on 
-either Palmetto or Cypress clusters. This system is meant to be used for 
-de-identification of any Protected Health Information (HIPAA) for further 
-analysis. The following identifiers combined with medical information qualify 
-any data as sensitive 
+CCIT hosts server dedicated to preparing sensitive data for further use on
+either Palmetto or Cypress clusters. This system is meant to be used for
+de-identification of any Protected Health Information (HIPAA) for further
+analysis. The following identifiers combined with medical information qualify
+any data as sensitive
 
 - Names
 - Telephone numbers
@@ -104,24 +104,24 @@ any data as sensitive
 - License plate numbers
 - URLs
 - Full-face photographic images
-- Any other unique identifying marker that allows identification of an individual 
+- Any other unique identifying marker that allows identification of an individual
 
 The system dedicated to the initial processing of the sensitive information
 is equipped with tools enhancing its security and the processes (access, monitoring,
-audit, administration) involving this system are detached from the general once 
-for Palmetto or Cypress. 
+audit, administration) involving this system are detached from the general once
+for Palmetto or Cypress.
 
 Security measures for the PHI research system
 - Secure location with 24/7 monitoring of access
-- Access to the system is limitted to restricted list of users 
+- Access to the system is limitted to restricted list of users
 - Access to restricted list of IP addresses controlled both at network and firewall levels
-- Secure shell only access 
+- Secure shell only access
 - Two-factor authentication
 - Monitoring of all commands on the system
 - Encrypted file system
 - Periodic security audit
 
-For access to the secured research system please contact 
+For access to the secured research system please contact
 <a href="#acds_support">Advanced Computing and Data Science group</a>.
 
 
@@ -190,11 +190,11 @@ and Data Science group:
 
 ## GalaxyGIS Cluster
 
-Clemson Center for Geospatial Technologies (CCGT) cyberinfrastructure includes a 
-High Throughput Computing pool, called GalaxyGIS, to address the needs of desktop 
-GIS users who needs additional computational power for their GIS analysis. The GIS Cluster 
-consists of over 30 Windows computers with installed GIS programs and a scheduler 
-to distribute GIS jobs for parallel processing through available nodes. GalaxyGIS 
+Clemson Center for Geospatial Technologies (CCGT) cyberinfrastructure includes a
+High Throughput Computing pool, called GalaxyGIS, to address the needs of desktop
+GIS users who needs additional computational power for their GIS analysis. The GIS Cluster
+consists of over 30 Windows computers with installed GIS programs and a scheduler
+to distribute GIS jobs for parallel processing through available nodes. GalaxyGIS
 is available to all students, faculty, and staff with Palmetto Cluster accounts.
 
 ### Overview
@@ -294,8 +294,8 @@ Palmetto cluster and main campus (selected buildings).
 Palmetto infrastructure includes two servers dedicated to fast transfer of data.
 
 - `xfer01-ext.palmetto.clemson.edu` is node dedicated to large file transfers using
-traditional tools like scp, FileZilla. This server also hosts Globus Endpoint for 
-Palmetto cluster. Palmetto `/home` and all scratch file systems are available on this 
+traditional tools like scp, FileZilla. This server also hosts Globus Endpoint for
+Palmetto cluster. Palmetto `/home` and all scratch file systems are available on this
 server.  
 
 - `hpcdtn01-ext.clemson.edu` is a server dedicated to large file transfer using Internet2.
@@ -304,12 +304,12 @@ to facilitate best disk-to-disk transfer speed.
 
 #### Pacific Research Platform (PRP)
 
-Pacific Research Platform is a collaboration of universities to establish 
-fast network connections between servers dedicated to data transfer. Clemson 
-University is PRP partner and `hpcdtn01-ext.clemson.edu` is part of the 
+Pacific Research Platform is a collaboration of universities to establish
+fast network connections between servers dedicated to data transfer. Clemson
+University is PRP partner and `hpcdtn01-ext.clemson.edu` is part of the
 PRP network. The list of all participating institutions and their DTNs is
 available on PRP Dashboard which allows also for assessment of the connection
-speed between different sites. 
+speed between different sites.
 
 [PRP Dashboard](http://prp-maddash.calit2.optiputer.net/maddash-webui/)<br>
 [Pacific Research Platform](http://prp.ucsd.edu/)<br>
@@ -370,3 +370,6 @@ Type | Unit | Description | Price | Comments
 -----|------|-------------|-------|-----------------
 Storage | 1TB | - ZFS system available only to Palmetto cluster<br> - Snapshots included in user space <br> - Full mirror for system recovery | $150.00 | Owners of existing SAMQFS spaces may expand existing storage for the same price as ZFS storage
 Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $8000 price as a projected price for future expansions of Palmetto
+Cypress (Hadoop) node | 1 unit | - 2 x Intel Xeon CPU E5-2680v3 "Haswell" @2.5 GHz (24 cores) <br> - 256 GB DDR4 RAM <br> - 24 x 6 TB 7200 RPM local hard disks for data storage (<b>144 TB total\*</b>) <br> - 2 x 300 GB 10k RPM local hard disks for host system <br> - On-board 10 Gbps Ethernet NIC | $16,224.00 | All grant budgets should assume $20,000.00 price as a projected price for future expansions of Cypress.
+
+<b>*</b>Usable storage on a Cypress node may be less than the included 144 TB depending on the configured HDFS <i>replication factor</i>. Using the Cypress Cluster default HDFS replication factor of <i>2</i>, your usable data capacity would be <i>72 TB</i>. The replication factor is user-configurable at the file level. We recommend using a replication factor of at least 2 to mitigate the risk of losing data due to a hardware failure.
