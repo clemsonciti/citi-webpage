@@ -68,7 +68,7 @@ For more information about condominium model and purchasing Palmetto nodes,
 including Palmetto nodes on grants please contact Jeronica Williams <jeronic@clemson.edu>
 or Marcin Ziolkowski <zziolko@clemson.edu>.
 
-[Owners guide for Palmetto cluster](https://www.palmetto.clemson.edu/palmetto/pages/ownership/owners.html)
+[Owners guide for Palmetto cluster](https://www.palmetto.clemson.edu/palmetto/old/pages/ownership/owners.html)
 
 ### Temporary storage
 
