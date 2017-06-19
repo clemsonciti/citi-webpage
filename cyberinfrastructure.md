@@ -29,17 +29,17 @@ research environment.
 ### Overview
 
 - available to all Clemson students/faculty/staff for free
-- 2021 compute nodes, 23072 cores
+- 2022 compute nodes, 23863 cores
 - heterogeneous configuration with various types of nodes (different CPU, memory, network, disk space)
-- 386 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 106 nodes with NVIDIA K40 GPUs (2 per node)
+- 458 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 138 nodes with NVIDIA K40 GPUs (2 per node), 40 nodes with NVIDIA P100 GPUs (2 per node)
 - 4 nodes with Intel Phi co-processors (2 per node)
-- 6 large memory nodes (5 with 505GB, 1 with 2TB), 262 nodes with 128GB of memory
+- 7 large memory nodes (5 with 505GB, 1 with 2TB, 1 with 1.5TB), 334 nodes with 128GB of memory
 - 100GB of personal space (backed up daily for 42 days)
 - Myrinet, 10Gbps Ethernet, Infiniband networks
 - global and local scratch spaces for temporary files (no quota per user)
 - maximum run time for a single task limited to 72 hours on Infiniband part and 168 hours on Myrinet part
-- ranked 4th among the public academic institutions in the US on Top500 list (155 on Top500) with
-performance of 814.4 TFlops (17,372 cores from Infiniband part of Palmetto)
+- ranked 8th among the academic systems in the US on Top500 list (172 on Top500, June 2017) with
+performance of 870.0 TFlops 
 
 [More about Palmetto](https://www.palmetto.clemson.edu/palmetto/) <br>
 [New account on Palmetto](http://citi.sites.clemson.edu/new-account) <br>
@@ -141,7 +141,7 @@ or shared server (purchase in 1TB increments).
 Long term storage space includes snapshots of changes and mirror system
 for disaster recovery.
 
-[More information about long term storage](https://www.palmetto.clemson.edu/palmetto/pages/ownership/owners.html#storage)
+[More information about long term storage](https://www.palmetto.clemson.edu/palmetto/old/pages/ownership/owners.html#storage)
 
 <hr>
 
@@ -200,8 +200,8 @@ is available to all students, faculty, and staff with Palmetto Cluster accounts.
 ### Overview
 
 - available for free to all Clemson students, faculty, and staff
-- 740 computer nodes (responsible for processing and computation)
-- 1 TB of personal space (not backed up)
+- 740 cores (responsible for processing and computation)
+- 1 TB of work space available on the nodes 
 
 ### Support
 
@@ -296,11 +296,10 @@ Palmetto infrastructure includes two servers dedicated to fast transfer of data.
 - `xfer01-ext.palmetto.clemson.edu` is node dedicated to large file transfers using
 traditional tools like scp, FileZilla. This server also hosts Globus Endpoint for
 Palmetto cluster. Palmetto `/home` and all scratch file systems are available on this
-server.  
-
+server. 
 - `hpcdtn01-ext.clemson.edu` is a server dedicated to large file transfer using Internet2.
 This DTN is part of Pacific Research Platform and includes large SSD based file system
-to facilitate best disk-to-disk transfer speed.  
+to facilitate best disk-to-disk transfer speed. 
 
 #### Pacific Research Platform (PRP)
 
@@ -369,7 +368,7 @@ All prices cover 4 year term.
 Type | Unit | Description | Price | Comments
 -----|------|-------------|-------|-----------------
 Storage | 1TB | - ZFS system available only to Palmetto cluster<br> - Snapshots included in user space <br> - Full mirror for system recovery | $150.00 | Owners of existing SAMQFS spaces may expand existing storage for the same price as ZFS storage
-Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v3 "Haswell" @2.5 GHz (for a total of 24 cores) <br> - 2 x NVIDIA Tesla K40c GPU accelerators <br> - 128 GB DDR4 RAM <br> - 2 x 1 TB local hard drives <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $6250.00 | All grant budgets should assume $8000 price as a projected price for future expansions of Palmetto
+Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v4 "Broadwell" @2.4 GHz (for a total of 28 cores) <br> - 2 x NVIDIA Tesla P100 GPU accelerators <br> - 128 GB DDR4 RAM <br> - 1.8 TB local scratch <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $7500.00 | All grant budgets should assume $9000 price as a projected price for future expansions of Palmetto
 Cypress (Hadoop) node | 1 unit | - 2 x Intel Xeon CPU E5-2680v3 "Haswell" @2.5 GHz (24 cores) <br> - 256 GB DDR4 RAM <br> - 24 x 6 TB 7200 RPM local hard disks for data storage (<b>144 TB total\*</b>) <br> - 2 x 300 GB 10k RPM local hard disks for host system <br> - On-board 10 Gbps Ethernet NIC | $16,224.00 | All grant budgets should assume $20,000.00 price as a projected price for future expansions of Cypress.
 
 <b>*</b>Usable storage on a Cypress node may be less than the included 144 TB depending on the configured HDFS <i>replication factor</i>. Using the Cypress Cluster default HDFS replication factor of <i>2</i>, your usable data capacity would be <i>72 TB</i>. The replication factor is user-configurable at the file level. We recommend using a replication factor of at least 2 to mitigate the risk of losing data due to a hardware failure.
