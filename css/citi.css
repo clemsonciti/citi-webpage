@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .social_block {
   padding: 10px 10px 10px 10px;
@@ -207,3 +208,16 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
+.index_tile {
+  background: #F66733; 
+  text-align: center; 
+  padding-top: 10pt; 
+  padding-bottom: 10pt; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  margin-bottom: 5pt;
+}
+
+.purple_bg {
+  background: #522D80;
+}
