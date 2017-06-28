@@ -221,3 +221,10 @@ tr:nth-child(even) {
 .purple_bg {
   background: #522D80;
 }
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:50px; /* fixed header height*/
+  margin:-50px 0 0; /* negative fixed header height */
+}

@@ -18,7 +18,7 @@ permalink: /infrastructure/
   <a class="button" href="#prices">Prices</a>
 </div>
 
-<span id="palmetto"></span>
+<span id="palmetto" class="jumptarget"></span>
 
 ## Palmetto Cluster
 
@@ -84,7 +84,7 @@ XFS              | `/scratch3`   | 129 TB    | - single server sharing space to 
 
 <hr>
 
-<span id="security"></span>
+<span id="security" class="jumptarget"></span>
 
 ## Secure data server
 
@@ -129,7 +129,7 @@ For access to the secured research system please contact
 
 <hr>
 
-<span id="storage"></span>
+<span id="storage" class="jumptarget"></span>
 
 ## Long term storage
 
@@ -145,7 +145,7 @@ for disaster recovery.
 
 <hr>
 
-<span id="cypress"></span>
+<span id="cypress" class="jumptarget"></span>
 
 ## Cypress Cluster
 
@@ -171,7 +171,7 @@ contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <lngo@clemson.edu>.
 
 <hr>
 
-<span id="acds_support"></span>
+<span id="acds_support" class="jumptarget"></span>
 
 ## Support
 
@@ -186,7 +186,7 @@ and Data Science group:
 
 <hr>
 
-<span id="galaxygis"></span>
+<span id="galaxygis" class="jumptarget"></span>
 
 ## GalaxyGIS Cluster
 
@@ -215,7 +215,7 @@ GalaxyGIS Cluster support is provided by the GIS group
 <hr>
 
 
-<span id="osg"></span>
+<span id="osg" class="jumptarget"></span>
 
 ### Open Science Grid
 
@@ -238,7 +238,7 @@ request an OSG account.
 
 <hr>
 
-<span id="xsede"></span>
+<span id="xsede" class="jumptarget"></span>
 
 ### XSEDE resources
 
@@ -262,7 +262,7 @@ at Clemson University:
 
 <hr>
 
-<span id="viz"></span>
+<span id="viz" class="jumptarget"></span>
 
 ### Visualization Lab
 
@@ -281,7 +281,7 @@ For events, demos, and office hours, please see the [visualization calendar](htt
 
 <hr>
 
-<span id="network"></span>
+<span id="network" class="jumptarget"></span>
 
 ## Network
 
@@ -318,7 +318,7 @@ speed between different sites.
 
 <hr>
 
-<span id="citi"></span>
+<span id="citi" class="jumptarget"></span>
 
 ### Research support
 
@@ -359,7 +359,7 @@ Program Manager
 
 <hr>
 
-<span id="prices"></span>
+<span id="prices" class="jumptarget"></span>
 
 ### Prices
 
