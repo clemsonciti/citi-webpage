@@ -89,13 +89,13 @@ body {
    left: 0px;
    bottom: 0px;
    padding: 10px 10px 10px 10px;
-   border-top: 1px solid #e5e5e5;
-   background: #F8F8F8;
-   /*background: #4D4F50;*/
+   border-top: 1px solid #272929;
+   background: #343536;
    text-align: left;
    clear: both;
-   color: #000000;
+   color: #ffffff;
    margin-top: 50px;
+   font-size: 80.0%;
 }
 
 /*#wrap {min-height: 100%;}*/
