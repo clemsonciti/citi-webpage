@@ -221,6 +221,9 @@ tr:nth-child(even) {
 .purple_bg {
   background: #522D80;
 }
+.white {
+  color: white;
+}
 
 .jumptarget::before {
   content:"";

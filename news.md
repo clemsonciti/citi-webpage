@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: News <a href="/feed.xml"><img src="/images/rss-icon.png" width="35px"></a> 
+title: News <a href="/feed.xml"><span class="white"><i class="fa fa-rss-square" aria-hidden="true"></i></span></a>
 permalink: /news/
 ---
 {% for post in site.posts %}
