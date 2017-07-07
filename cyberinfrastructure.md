@@ -9,25 +9,24 @@ permalink: /infrastructure/
 <div class="three columns">
 
 <div id="sidebar">
-<!--<div class="row" style="margin-top: 10pt;">-->
-  <a class="button" href="#palmetto">Palmetto Cluster</a>
-  <a class="button" href="#security">PHI data processing</a>
-  <a class="button" href="#storage">Long Term Storage</a>
-  <a class="button" href="#cypress">Cypress Cluster</a>
-  <a class="button" href="#galaxygis">GalaxyGIS</a>
-  <a class="button" href="#viz">Visualization Lab</a>
-  <a class="button" href="#network">Network</a>
-  <a class="button" href="#osg">Open Science Grid</a>
-  <a class="button" href="#xsede">XSEDE</a>
-  <a class="button" href="#citi">Research support</a>
-  <a class="button" href="#prices">Prices</a>
-<!--</div>-->
+<ul style="list-style: none;">
+  <li><a href="#palmetto">Palmetto Cluster</a></li>
+  <li><a href="#security">PHI data processing</a></li>
+  <li><a href="#storage">Long Term Storage</a></li>
+  <li><a href="#cypress">Cypress Cluster</a></li>
+  <li><a href="#galaxygis">GalaxyGIS</a></li>
+  <li><a href="#viz">Visualization Lab</a></li>
+  <li><a href="#network">Network</a></li>
+  <li><a href="#osg">Open Science Grid</a></li>
+  <li><a href="#xsede">XSEDE</a></li>
+  <li><a href="#citi">Research support</a></li>
+  <li><a href="#prices">Prices</a></li>
+</ul>
 </div>
 
 </div>
 
 <div class="nine columns" markdown="1">
-
 
 <span id="palmetto" class="jumptarget"></span>
 
