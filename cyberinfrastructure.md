@@ -1,10 +1,15 @@
 ---
-layout: page
+layout: cyberinfrastructure
 title: Clemson Research Cyberinfrastructure
 permalink: /infrastructure/
 ---
 
-<div class="row" style="margin-top: 10pt;">
+<div class="row">
+
+<div class="three columns">
+
+<div id="sidebar">
+<!--<div class="row" style="margin-top: 10pt;">-->
   <a class="button" href="#palmetto">Palmetto Cluster</a>
   <a class="button" href="#security">PHI data processing</a>
   <a class="button" href="#storage">Long Term Storage</a>
@@ -16,7 +21,13 @@ permalink: /infrastructure/
   <a class="button" href="#xsede">XSEDE</a>
   <a class="button" href="#citi">Research support</a>
   <a class="button" href="#prices">Prices</a>
+<!--</div>-->
 </div>
+
+</div>
+
+<div class="nine columns" markdown="1">
+
 
 <span id="palmetto" class="jumptarget"></span>
 
@@ -372,3 +383,6 @@ Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v4 "Broadwell" @2.4 GHz
 Cypress (Hadoop) node | 1 unit | - 2 x Intel Xeon CPU E5-2680v3 "Haswell" @2.5 GHz (24 cores) <br> - 256 GB DDR4 RAM <br> - 24 x 6 TB 7200 RPM local hard disks for data storage (<b>144 TB total\*</b>) <br> - 2 x 300 GB 10k RPM local hard disks for host system <br> - On-board 10 Gbps Ethernet NIC | $16,224.00 | All grant budgets should assume $20,000.00 price as a projected price for future expansions of Cypress.
 
 <b>*</b>Usable storage on a Cypress node may be less than the included 144 TB depending on the configured HDFS <i>replication factor</i>. Using the Cypress Cluster default HDFS replication factor of <i>2</i>, your usable data capacity would be <i>72 TB</i>. The replication factor is user-configurable at the file level. We recommend using a replication factor of at least 2 to mitigate the risk of losing data due to a hardware failure.
+
+</div>
+</div>
