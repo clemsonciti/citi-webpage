@@ -235,6 +235,7 @@ tr:nth-child(even) {
 #sidebar {
   background: #F8F9F9;
   padding: 10pt 10pt 10pt 10pt;
+  font-size: 90.0%;
 }
 
 @media (max-width: 800px) {                  
