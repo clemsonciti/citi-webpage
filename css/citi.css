@@ -232,5 +232,11 @@ tr:nth-child(even) {
   margin:-50px 0 0; /* negative fixed header height */
 }
 
-.sidebar {
+#sidebar {
+  background: #F8F9F9;
+  padding: 10pt 10pt 10pt 10pt;
+}
+
+@media (max-width: 800px) {                  
+ #sidebar { display: none; }
 }
