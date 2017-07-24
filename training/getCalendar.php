@@ -8,14 +8,14 @@ function startswith($needle, $haystack)
 function get_nice_date($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   $dt = date_create($tmp[2]);
+   $dt = date_create($tmp[1]);
    return date_format($dt, "M d, Y");
 }
 
 function get_nice_repeat_date($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   $dt = date_create($tmp[2]);
+   $dt = date_create($tmp[1]);
    return date_format($dt, "M d, Y");
 }
 
@@ -24,13 +24,13 @@ function get_date($timestamp)
    $tmp = explode(":", $timestamp);
    //echo $tmp[2];
    //echo $timestamp;
-   return date_create($tmp[2]);
+   return date_create($tmp[1]);
 }
 
 function get_time($timestamp)
 {
    $tmp = explode(":", $timestamp);
-   $dt = date_create($tmp[2]);
+   $dt = date_create($tmp[1]);
    return date_format($dt, "g:i A");
 }
 
