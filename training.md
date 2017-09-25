@@ -1,387 +1,196 @@
 ---
 layout: cyberinfrastructure
-title: Clemson Research Cyberinfrastructure
-permalink: /infrastructure/
+title: Training Workshop
+permalink: /training/
 ---
 
 <div class="row">
 
-<div class="three columns">
+<div class="four columns">
 
 <div id="sidebar">
 <ul style="list-style: none;">
-  <li><a href="#palmetto">Palmetto Cluster</a></li>
-  <li><a href="#security">PHI data processing</a></li>
-  <li><a href="#storage">Long Term Storage</a></li>
-  <li><a href="#cypress">Cypress Cluster</a></li>
-  <li><a href="#galaxygis">GalaxyGIS</a></li>
-  <li><a href="#viz">Visualization Lab</a></li>
-  <li><a href="#network">Network</a></li>
-  <li><a href="#osg">Open Science Grid</a></li>
-  <li><a href="#xsede">XSEDE</a></li>
-  <li><a href="#citi">Research support</a></li>
-  <li><a href="#prices">Prices</a></li>
+  <li><a href="#linux">Introduction to Linux</a></li>
+  <li><a href="#git">Introduction to Version Control with Git</a></li>
+  <li><a href="#researchcomputing">Introduction to Research Computing</a></li>
+  <li><a href="#intropython">Introduction to Programming in Python</a></li>
+  <li><a href="#introdatascience">Introduction to Data Science using R</a></li>
+  <li><a href="#dataminingr">Data Mining using R</a></li>
+  <li><a href="#introhadooppython">Introduction to Hadoop MapReduce using Python</a></li>
+  <li><a href="#introsparkpython">Introduction to Apache Spark using Python</a></li>
+  <li><a href="#intromlpython">Introduction to Machine Learning using Python</a></li>
+  <li><a href="#pythonhpc1">High Performance Python I</a></li>
+  <li><a href="#pythonhpc2">High Performance Python II</a></li>
+  <li><a href="#svizparaview">Scientific Visualization with Paraview</a></li>
+  <li><a href="#svizvisit">Scientific Visualization with VisIt</a></li>
+  <li><a href="#svizvmd">Scientific Visualization with VMD</a></li>
+  <li><a href="#svizcuda">Scientific Visualization with CUDA</a></li>
 </ul>
 </div>
 
 </div>
 
-<div class="nine columns" markdown="1">
+<div class="eight columns" markdown="1">
 
 <span id="palmetto" class="jumptarget"></span>
 
-## Palmetto Cluster
-
-Palmetto Cluster is a local high performance computing environment
-available to all Clemson students/faculty and staff as a dedicated
-research environment.
-
-### Overview
-
-- available to all Clemson students/faculty/staff for free
-- 2022 compute nodes, 23863 cores
-- heterogeneous configuration with various types of nodes (different CPU, memory, network, disk space)
-- 458 nodes are equipped with NVIDIA Tesla GPUs: 280 nodes with NVIDIA K20 GPUs (2 per node), 138 nodes with NVIDIA K40 GPUs (2 per node), 40 nodes with NVIDIA P100 GPUs (2 per node)
-- 4 nodes with Intel Phi co-processors (2 per node)
-- 7 large memory nodes (5 with 505GB, 1 with 2TB, 1 with 1.5TB), 334 nodes with 128GB of memory
-- 100GB of personal space (backed up daily for 42 days)
-- Myrinet, 10Gbps Ethernet, Infiniband networks
-- global and local scratch spaces for temporary files (no quota per user)
-- maximum run time for a single task limited to 72 hours on Infiniband part and 168 hours on Myrinet part
-- ranked 8th among the academic systems in the US on Top500 list (172 on Top500, June 2017) with
-performance of 870.0 TFlops 
+CITI partners with researchers across campus and across the country to offer a diverse catalog of advanced computing 
+training opportunities for Clemson University students, researchers, faculty, and staff, as well as opportunities for our 
+external partners at other universities and organizations. If you have problems with or questions about course registration, 
+please contact [ITHELP](ithelp@clemson.edu) with the word "Palmetto training" in the title.
 
-[More about Palmetto](https://www.palmetto.clemson.edu/palmetto/) <br>
-[New account on Palmetto](http://citi.sites.clemson.edu/new-account) <br>
-[Reservation request](http://citi.sites.clemson.edu/new-reservation) <br>
+Registrations for training workshops will be available on [https://clemson.edu/clereg](clemson.edu/clereg) 
+one week prior to the listed start dates below.
 
+#### Fall 2017 Schedule of Workshops
 
+<span id="linux" class="jumptarget"></span>
+**Introduction to Linux**
 
-### Condominium model
+Software Carpentry based introduction to the Linux command line interface
 
-Palmetto cluster operates in a condominium model which allows faculty to invest in the
-cluster. Investments into Palmetto are based on purchases of compute nodes. By purchasing
-a compute node faculty get priority to use an equivalent hardware across whole Palmetto cluster.
-All not used compute cycles are made available for general Clemson users. Owners may preempt
-other users making the hardware they purchased immediately available. Purchased nodes are
-available to faculty for a period of 4 years, after that the priority to use them expires.
+- Thursday, September 7, 9:00AM - 12:00PM. Location: Barre Hall B105
+- Thursday, October 5, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Monday, November 6, 9:00AM - 12:00PM. Location: Barre Hall B105  
+- Wednesday, November 29, 9:00AM - 12:00PM. Location: Barre Hall B105
 
-Being an owner allows users to
+<span id="git" class="jumptarget"></span>
+**Introduction to Version Control with Git**
 
-- have immediate access to the amount they have purchased by preempting other users
-- have a dedicated group on Palmetto cluster
-- invite external collaborators (not associated with Clemson) to use their purchased
-resources
-- have extended maximum time for a single task up to 336 hours (14 days)
+Introduction to git for version control and Gihub.com for collaboration.
 
-For more information about condominium model and purchasing Palmetto nodes,
-including Palmetto nodes on grants please contact Jeronica Williams <jeronic@clemson.edu>
-or Marcin Ziolkowski <zziolko@clemson.edu>.
+- Monday September 4, 9:00AM - 12:00PM. Location: Barre Hall B105
+- Monday October 30, 9:00AM - 12:00PM. Location: Barre Hall B105
 
-[Owners guide for Palmetto cluster](https://www.palmetto.clemson.edu/palmetto/owners.html)
+<span id="researchcomputing" class="jumptarget"></span>
 
-### Temporary storage
+**Introduction to research computing on Palmetto Cluster**
 
-Palmetto includes several file systems designed for storing temporary files
-1. Local disk on compute nodes
-2. Following global scratch systems  
+Introduction to Palmetto cluster platform, details of infrastructure, scheduler, best practices.
 
-File system      | Directory     | Capacity  | Features
------------------|---------------|-----------|----------------
-OrangeFS         | `/scratch1`   | 233 TB    | - distributed file system based on OrangeFS <br> - available to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted on first day of each month <br> - designed for parallel I/O
-ZFS              | `/scratch2`   | 150 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
-XFS              | `/scratch3`   | 129 TB    | - single server sharing space to all compute nodes and the login node <br> - no quota per user <br> - files not accessed for 30 days deleted daily <br> - designed for general I/O patterns (small and/or single process I/O)
+- Friday September 8, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Friday October 6, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Tuesday November 7, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Thursday November 30, 9:00AM - 12:00PM. Location: Barre Hall B105 
 
-<hr>
+<span id="intropython" class="jumptarget"></span>
+Introduction to Python - Introduction to programming in Python
 
-<span id="security" class="jumptarget"></span>
+- Tuesday, September 5, 9:00AM - 12:00PM. Location: Barre Hall B105
+- Tuesday, October 31, 9:00AM - 12:00PM. Location: Barre Hall B105 
 
-## Secure data server
+<span id="introdatascience" class="jumptarget"></span>
+**Introduction to Data Science using R**
 
-CCIT hosts server dedicated to preparing sensitive data for further use on
-either Palmetto or Cypress clusters. This system is meant to be used for
-de-identification of any Protected Health Information (HIPAA) for further
-analysis. The following identifiers combined with medical information qualify
-any data as sensitive
+Introduction to R language for data analytics using RStudio on PC and also Jupyter notebooks on Palmetto. 
+Workshop contents include basic understand of R, installation of additional R modules, introduction to 
+data manipulation, introduction to visualization, and several best practices for using R. No prior knowledge 
+of R or programming in general is required. 
 
-- Names
-- Telephone numbers
-- Fax numbers
-- Email addresses
-- Social Security numbers
-- Medical record numbers
-- Health plan numbers
-- License plate numbers
-- URLs
-- Full-face photographic images
-- Any other unique identifying marker that allows identification of an individual
+- Thursday, August 31, 3:30PM - 4:45PM. (full) 
+- Tuesday, September 5, 9:00AM - 12:00PM. Location: Barre Hall B106 
+- Tuesday October 31, 9:00AM - 12:00PM. Location: Barre Hall B106 
 
-The system dedicated to the initial processing of the sensitive information
-is equipped with tools enhancing its security and the processes (access, monitoring,
-audit, administration) involving this system are detached from the general once
-for Palmetto or Cypress.
+<span id="dataminingr" class="jumptarget"></span>
+**Data Mining using R**
 
-Security measures for the PHI research system
-- Secure location with 24/7 monitoring of access
-- Access to the system is limitted to restricted list of users
-- Access to restricted list of IP addresses controlled both at network and firewall levels
-- Secure shell only access
-- Two-factor authentication
-- Monitoring of all commands on the system
-- Encrypted file system
-- Periodic security audit
+This workshop focuses on data mining techniques in R, with the emphasis on techniques to acquiring and 
+curating data via online sources. For acquiring data, we will learn how to download from static links, 
+crawl through entire websites, and stream data from real-time sources. For curating data, we will 
+learn how to expand and extract information from acquired data, which are often stored under 
+non-structured/semi-structured online data (XML, JSON, ...), into structured format suitable to 
+subsequent analysis. We will also learn about best practices in data management, including organizing 
+data directories, working with databases, and automating data-mining process through the Palmetto Supercomputer. 
 
-For access to the secured research system please contact
-<a href="#acds_support">Advanced Computing and Data Science group</a>.
+- Tuesday, September 5, 3:30PM - 4:45PM (full) 
+- Thursday, September 7, 3:30PM - 4:45PM (full) 
+- Thursday, October 12, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Tuesday, November 5, 9:00AM - 12:00PM. Location TBD 
 
+<span id="introhadooppython" class="jumptarget"></span>
+**Introduction to Hadoop and MapReduce**
 
-[HIPAA](https://www.hhs.gov/hipaa/index.html)
+This workshop will teach how to utilize Hadoop MapReduce and Python to perform large scale data analytics. 
+Learning outcomes of this workshop include understanding the overall architecture of the 
+Hadoop Distributed File System (HDFS) and understanding the concept of MapReduce. Throughout the workshop, 
+participants will learn to develop and run MapReduce programs, examine system logs in order to perform 
+debugging MapReduce applications, and be able to optimize MapReduce applications. 
 
-<hr>
+- Thusday, September 14, 9:00AM - 12:00PM. Location: Barre Hall B105 
+- Thursday, December 7, 9:00AM - 12:00PM. Location TBD 
 
-<span id="storage" class="jumptarget"></span>
+<span id="introsparkpython" class="jumptarget"></span>
+**Introduction to Spark for fast in-memory big data processing using Python**
 
-## Long term storage
+This workshop will teach how to how to utilize Apache Spark and Python to perform 
+large-scale in-memory data analytics. Learning outcomes of this workshop include 
+understanding the overall conceptual design of Spark and what are the advantages of using 
+Spark over the traditional Hadoop MapReduce. Participants will also learn to develop Spark 
+programs using Python and to leverage Spark’s specific capacities such as SQLContext and 
+DataFrame to assist with data analytics. 
 
-Long term storage solutions are available to users seeking a dedicated
-high performance storage. This service is provided for fee to Clemson users.
-Palmetto users may purchase ZFS storage with either dedicated server (purchasing of 150TB)
-or shared server (purchase in 1TB increments).
+- Friday, September 15, 9:00AM - 12:00PM. Location: Barre Hall B106 
+- Friday, December 8, 9:00AM - 12:00PM. Location: Barre Hall B106 
 
-Long term storage space includes snapshots of changes and mirror system
-for disaster recovery.
+<span id="intromlpython" class="jumptarget"></span>
+**Introduction to Machine Learning**
 
-[More information about long term storage](https://www.palmetto.clemson.edu/palmetto/owners.html)
+The first half of this workshop focuses on machine learning techniques in Python (Scikit-learn), 
+which remains the overwhelming first choice as a programming language for machine learning. The 
+second half of workshop focused on deep learning techniques in DIGITS, the NVIDIA Deep Learning GPU 
+Training System, which is easy to learn and use. We will also learn how to process through the Palmetto Supercomputer. 
 
-<hr>
+- Tuesday, September 29, 9:00AM - 12:00PM. Location: ASC 118 (Academic Success Center) 
+- Thursday, November 2, 9:00AM - 12:00PM. Location TBD 
 
-<span id="cypress" class="jumptarget"></span>
 
-## Cypress Cluster
+<span id="pythonhpc1" class="jumptarget"></span>
+**High Performance Python I**
 
-Clemson cyberinfrastructure includes a dedicated *Hadoop* environment, called *Cypress*, that is integrated with Palmetto's infrastructure. The *Cypress Cluster* uses the *Hortonworks Data Platform*
-distribution of Hadoop and *Spark* to support data intensive computing and analytics. Cypress is available to
-all students, faculty, and staff with Palmetto Cluster accounts.
+This session will be a hands-on tutorial on different ways to accelerate Python code, 
+measure and improve performance, including using multiple cores, multiple nodes, and the GPU to speed up computations. 
 
-### Overview
+- Thursday, August 17 (morning), 9:00AM - 12:00PM. Location: Barre Hall B106
 
-- available for free to all Clemson students, faculty, and staff
-- 3.64 PB (petabyte) global *Hadoop Distributed File System* (HDFS)
-- 40 *worker* nodes (responsible for computation and data storage)
-  - 256 GB of RAM per node
-  - 16 nodes each have 12 1-TB local disks
-  - 24 nodes each have 24 6-TB local disks
-- one dedicated Cypress Cluster *user node* for job submission and data staging
-- *Hortonworks Data Platform distribution* of Hadoop, Spark, and other *Hadoop ecosystem services*
+<span id="pythonhpc2" class="jumptarget"></span>
+**High Performance Python II**
 
-For more information about investing into Cypress Cluster please
-contact Jeronica Williams <jeronic@clemson.edu> or Linh Ngo <lngo@clemson.edu>.
+For this session, bring your own code or research questions, and we will help you get started with 
+parallelizing and/or improving its performance. 
 
-[More about Cypress](https://www.palmetto.clemson.edu/cypress/)
+- Thursday, August 17 (afternoon), 1:00PM - 4:00PM. Location: Barre Hall B106 
 
-<hr>
+<span id="svizparaview" class="jumptarget"></span>
+**Scientific Visualization with ParaView**
 
-<span id="acds_support" class="jumptarget"></span>
+In this training session, an introduction to scientific visualization by using ParaView will be provided. The topics that will be covered are:  How to load different datasets and simulation results in ParaView.  How to apply pre-defined filters on loaded datasets in order to extract information about simulation results and create animation.  How to connect the ParaView to the Palmetto cluster in order to load big data structures and deal with them by using parallel visualization.  Send the scientific visualization datasets into HTC Vive headsets in order to interact with data structures in virtual reality environment.  How to use Python programming language in order to create customized filters and deal with complex data structures.  Show some real case of simulation results in ParaView to demonstrate the powerful tools of this scientific visualization software. 
 
-## Support
+- Friday, September 22, 10:30AM – 11:30AM
 
-The Palmetto and Cypress Clusters research support is provided by Advanced Computing
-and Data Science group:
+<span id="svizvisit" class="jumptarget"></span>
+**Scientific Visualization with VisIt**
 
-- Jeffrey Denton <denton@clemson.edu>
-- Linh Ngo <lngo@clemson.edu>
-- Ashwin Srinath <atrikut@g.clemson.edu>
-- Nuyun Zhang <nuyun@clemson.edu>
-- Marcin Ziolkowski <zziolko@clemson.edu>
+In this training session, an introduction to scientific visualization by using VisIt will be provided. The topics that will be covered are:  How to load different datasets and simulation results in VisIt.  How to apply pre-defined filters on loaded datasets in order to extract information about simulation results and create animation.  How to connect the VisIt to the Palmetto cluster in order to load big data structures and deal with them by using parallel visualization.  Show some real case of simulation results in VisIt to demonstrate the powerful tools of this scientific visualization software. 
 
-<hr>
+- Friday, September 29, 10:30AM – 11:30AM
 
-<span id="galaxygis" class="jumptarget"></span>
+<span id="svizvmd" class="jumptarget"></span>
+**Scientific Visualization with VMD**
 
-## GalaxyGIS Cluster
+In this training session, an introduction to molecular dynamics and biomolecular visualization by using VMD will be provided. The topics that will be covered are:  How to open different molecular and biomolecular structures in VMD and extract different regions of interest like hydrophilic and hydrophobic parts of a molecule.  How to show the molecular structures by different visualization types like using chain, ribbons etc. and assign the computed fields like temperature or movement of atoms as colors the molecular structures.   How to create animation from dynamic molecular simulation and extract the positional information about atoms like RMSD.  How to use Palmetto cluster in order to deal with big molecular structures and installing and using VMD on Palmetto cluster. 
 
-Clemson Center for Geospatial Technologies (CCGT) cyberinfrastructure includes a
-High Throughput Computing pool, called GalaxyGIS, to address the needs of desktop
-GIS users who needs additional computational power for their GIS analysis. The GIS Cluster
-consists of over 30 Windows computers with installed GIS programs and a scheduler
-to distribute GIS jobs for parallel processing through available nodes. GalaxyGIS
-is available to all students, faculty, and staff with Palmetto Cluster accounts.
+- Friday, October 06, 10:30AM – 11:30AM 
 
-### Overview
+<span id="svizcuda" class="jumptarget"></span>
+**Scientific Visualization with CUDA**
 
-- available for free to all Clemson students, faculty, and staff
-- 740 cores (responsible for processing and computation)
-- 1 TB of work space available on the nodes 
+In this training session, some real case of using CUDA/OpenGL in 
+scientific visualization will be showed and then some information
+about using Palmetto cluster in order to combine CUDA and high 
+performance computing in order to visualize big data structures 
+will be provided.
 
-### Support
-
-GalaxyGIS Cluster support is provided by the GIS group
-
-- Patrick Claflin <pat@clemson.edu>
-- Palak Matta <pmatta@clemson.edu>
-- Blake Lytle <balytle@g.clemson.edu>
-- Patricia Carbajales-Dale <pcarbaj@clemson.edu>
-
-<hr>
-
-
-<span id="osg" class="jumptarget"></span>
-
-### Open Science Grid
-
-Open Science Grid (OSG) is a freely accessible distributed computing
-resource for scientific calculations designed to handle huge number of "small"
-computational tasks - high throughput computing (HTC).
-
-Clemson University has been working with OSG on providing seamless access to
-the OSG resources for Clemson researchers. OSG has been recently integrated
-into the Palmetto cluster for sending and receiving high throughput jobs using
-the OSG framework. Access to OSG is free of charge.
-
-Access to OSG from Palmetto is available using Connect Client software.
-OSG uses separate accounting system and before trying it Clemson users need to
-request an OSG account.
-
-[Open Science Grid](http://www.opensciencegrid.org/) <br>
-[OSG Connect](https://osgconnect.net/) <br>
-[New OSG Account](https://osgconnect.net/signup) <br>
-
-<hr>
-
-<span id="xsede" class="jumptarget"></span>
-
-### XSEDE resources
-
-The Extreme Science and Engineering Discovery Environment (XSEDE) is a collection
-of national advanced cyberinfrastructure resources. XSEDE provide access to both
-dedicated computing systems and experts is computationally oriented research areas.
-Computing resources include Stampede, Comet, SuperMIC, Jetstream, Wrangler, Bridges
-and other systems.
-
-For more information about XSEDE resources contact one of the XSEDE Campus Champions
-at Clemson University:
-
-- Xizhou Feng <xizhouf@clemson.edu>
-- Linh Ngo <lngo@clemson.edu>
-- Ashwin Srinath <atrikut@clemson.edu>
-- Marcin Ziolkowski <zziolko@clemson.edu>
-
-[XSEDE](https://www.xsede.org/) <br>
-[List of XSEDE resources](https://www.xsede.org/web/guest/resources/overview) <br>
-[XSEDE Allocations](https://www.xsede.org/allocations) <br>
-
-<hr>
-
-<span id="viz" class="jumptarget"></span>
-
-### Visualization Lab
-
-The Visualization Lab (Barre Hall 2004) provides
-cyberinfrastructure for the visualization and virtual reality needs
-of Clemson students, faculty and staff, including:
-
-- Virtual reality head mounted displays (Oculus Rift, Microsoft HoloLens, Samsun Gear VR, etc.,)
-- Visualization workstations equipped with high-end Nvidia Graphics cards
-- Tiled displays and 3-D projector
-- Visualization cluster with 5 nodes and 40 Gbps connection to Palmetto Cluster
-
-For details about available resources, please see [here](http://visualization.sites.clemson.edu/systems.html),
-or contact Wole Oyekoya <ooyekoy@clemson.edu>.
-For events, demos, and office hours, please see the [visualization calendar](http://visualization.sites.clemson.edu/news.html).
-
-<hr>
-
-<span id="network" class="jumptarget"></span>
-
-## Network
-
-Clemson network infrastructure is connected with high speed network provided by
-Internet 2. The high speed (100Gbps) network provides external connectivity to
-Palmetto cluster and main campus (selected buildings).
-
-#### Data transfer node (DTN)
-
-Palmetto infrastructure includes two servers dedicated to fast transfer of data.
-
-- `xfer01-ext.palmetto.clemson.edu` is node dedicated to large file transfers using
-traditional tools like scp, FileZilla. This server also hosts Globus Endpoint for
-Palmetto cluster. Palmetto `/home` and all scratch file systems are available on this
-server. 
-- `hpcdtn01-ext.clemson.edu` is a server dedicated to large file transfer using Internet2.
-This DTN is part of Pacific Research Platform and includes large SSD based file system
-to facilitate best disk-to-disk transfer speed. 
-
-#### Pacific Research Platform (PRP)
-
-Pacific Research Platform is a collaboration of universities to establish
-fast network connections between servers dedicated to data transfer. Clemson
-University is PRP partner and `hpcdtn01-ext.clemson.edu` is part of the
-PRP network. The list of all participating institutions and their DTNs is
-available on PRP Dashboard which allows also for assessment of the connection
-speed between different sites.
-
-[PRP Dashboard](http://prp-maddash.calit2.optiputer.net/maddash-webui/)<br>
-[Pacific Research Platform](http://prp.ucsd.edu/)<br>
-[Internet 2](http://www.internet2.edu) <br>
-[Advanced Layer 2 Service](http://www.internet2.edu/products-services/advanced-networking/layer-2-services/) <br>
-[ESnet Fasterdata Knowledge Base](https://fasterdata.es.net/)
-
-<hr>
-
-<span id="citi" class="jumptarget"></span>
-
-### Research support
-
-Cyberinfrastructure Technology Integration (CITI) group provides support to Clemson
-University researchers in broadly defined research computing. CITI provides workshops
-covering introduction to HPC systems, introduction to programming for researchers and
-area specific research computing. CITI staff provides assistance in utilizing local
-and external dedicated computing resources and assists in porting and optimizing workflows.
-
-CITI group includes subgroups
-
-Advanced Computing and Data Science  
-
-- Jeffrey Denton <denton@clemson.edu>
-- Linh Ngo <lngo@clemson.edu>
-- Ashwin Srinath <atrikut@g.clemson.edu>
-- Nuyun (Nellie) Zhang <nuyun@clemson.edu>
-- Marcin Ziolkowski <zziolko@clemson.edu>
-
-Advanced Visualization
-
-- Wole Oyekoya <ooyekoy@clemson.edu>
-- Jonathan Clayton <jclayto@clemson.edu>
-
-Geographic Information System Group
-
-- Patrick Claflin <pat@clemson.edu>
-- Patricia Carbajales-Dale <pcarbaj@clemson.edu>
-- Palak Matta <pmatta@clemson.edu>
-- Blake Lytle <balytle@clemson.edu>
-
-Program Manager
-
-- Jeronica Williams <jeronic@clemson.edu>
-
-[More about CITI group](http://citi.clemson.edu) <br>
-[CITI Training and workshops](http://citi.clemson.edu/training) <br>
-
-<hr>
-
-<span id="prices" class="jumptarget"></span>
-
-### Prices
-
-All prices cover 4 year term.
-
-Type | Unit | Description | Price | Comments
------|------|-------------|-------|-----------------
-Storage | 1TB | - ZFS system available only to Palmetto cluster<br> - Snapshots included in user space <br> - Full mirror for system recovery | $150.00 | Owners of existing SAMQFS spaces may expand existing storage for the same price as ZFS storage
-Palmetto compute node | 1 unit | - 2 x Intel Xeon E5-2680v4 "Broadwell" @2.4 GHz (for a total of 28 cores) <br> - 2 x NVIDIA Tesla P100 GPU accelerators <br> - 128 GB DDR4 RAM <br> - 1.8 TB local scratch <br> - On-board 10 Gbps Ethernet NIC <br> - InfiniBand FDR 56 Gbps network card | $7500.00 | All grant budgets should assume $9000 price as a projected price for future expansions of Palmetto
-Cypress (Hadoop) node | 1 unit | - 2 x Intel Xeon CPU E5-2680v3 "Haswell" @2.5 GHz (24 cores) <br> - 256 GB DDR4 RAM <br> - 24 x 6 TB 7200 RPM local hard disks for data storage (<b>144 TB total\*</b>) <br> - 2 x 300 GB 10k RPM local hard disks for host system <br> - On-board 10 Gbps Ethernet NIC | $16,224.00 | All grant budgets should assume $20,000.00 price as a projected price for future expansions of Cypress.
-
-<b>*</b>Usable storage on a Cypress node may be less than the included 144 TB depending on the configured HDFS <i>replication factor</i>. Using the Cypress Cluster default HDFS replication factor of <i>2</i>, your usable data capacity would be <i>72 TB</i>. The replication factor is user-configurable at the file level. We recommend using a replication factor of at least 2 to mitigate the risk of losing data due to a hardware failure.
+- Friday, October 13, 10:30AM – 11:30AM 
 
 </div>
 </div>
