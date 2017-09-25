@@ -1,3 +1,7 @@
+- name: Dustin Atkins
+  picture: /images/paw.png
+  mail: datkin2@clemson.edu
+  info:
 - name: Patricia Carbajales-Dale
   picture: /images/patricia-carbajales-dale-photo.jpg
   mail: pcarbaj@clemson.edu
@@ -41,10 +45,6 @@
 - name: Dr. Nuyun (Nellie) Zhang
   picture: /images/nuyun-zhang-photo.jpg
   mail: nuyun@clemson.edu
-  info:
-- name: Dr. Marcin Ziolkowski
-  picture: /images/marcin-ziolkowski-photo.jpg
-  mail: zziolko@clemson.edu
   info:
 
 
