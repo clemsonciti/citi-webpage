@@ -10,21 +10,21 @@ permalink: /training/
 
 <div id="sidebar">
 <ul style="list-style: none;">
-  <li><a href="#linux">Introduction to Linux</a></li>
-  <li><a href="#git">Introduction to Version Control with Git</a></li>
-  <li><a href="#researchcomputing">Introduction to Research Computing</a></li>
-  <li><a href="#intropython">Introduction to Programming in Python</a></li>
-  <li><a href="#introdatascience">Introduction to Data Science using R</a></li>
-  <li><a href="#dataminingr">Data Mining using R</a></li>
-  <li><a href="#introhadooppython">Introduction to Hadoop MapReduce using Python</a></li>
-  <li><a href="#introsparkpython">Introduction to Apache Spark using Python</a></li>
-  <li><a href="#intromlpython">Introduction to Machine Learning using Python</a></li>
+  <li><a href="#linux">Intro to Linux</a></li>
+  <li><a href="#git">Intro to Version Control with Git</a></li>
+  <li><a href="#researchcomputing">Intro to Research Computing</a></li>
+  <li><a href="#intropython">Intro to Programming (Python)</a></li>
+  <li><a href="#introdatascience">Intro to Data Science (R)</a></li>
+  <li><a href="#dataminingr">Data Mining (R)</a></li>
+  <li><a href="#introhadooppython">Intro to Hadoop MapReduce (Python)</a></li>
+  <li><a href="#introsparkpython">Introto Apache Spark (Python)</a></li>
+  <li><a href="#intromlpython">Intro to Machine Learning (Python)</a></li>
   <li><a href="#pythonhpc1">High Performance Python I</a></li>
   <li><a href="#pythonhpc2">High Performance Python II</a></li>
-  <li><a href="#svizparaview">Scientific Visualization with Paraview</a></li>
-  <li><a href="#svizvisit">Scientific Visualization with VisIt</a></li>
-  <li><a href="#svizvmd">Scientific Visualization with VMD</a></li>
-  <li><a href="#svizcuda">Scientific Visualization with CUDA</a></li>
+  <li><a href="#svizparaview">Scientific Visualization (Paraview)</a></li>
+  <li><a href="#svizvisit">Scientific Visualization (VisIt)</a></li>
+  <li><a href="#svizvmd">Scientific Visualization (VMD)</a></li>
+  <li><a href="#svizcuda">Scientific Visualization (CUDA)</a></li>
 </ul>
 </div>
 
