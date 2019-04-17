@@ -4,4 +4,3 @@ title: Data Science
 permalink: /data-science/
 ---
 
-## testing
